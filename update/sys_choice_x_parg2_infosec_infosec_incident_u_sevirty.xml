@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_sevirty" table="x_parg2_infosec_infosec_incident" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_sevirty</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Critical</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence/>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-03 10:05:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28f02aa3db70a340f87bfe9b0c961910</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-03 10:05:23</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_sevirty</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence/>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-03 10:06:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9831aaa3db70a340f87bfe9b0c961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-03 10:06:24</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_sevirty</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medium</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence/>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-03 10:06:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0841eaa3db70a340f87bfe9b0c96197e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-03 10:06:37</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_sevirty</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Low</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence/>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-03 10:06:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b416aa3db70a340f87bfe9b0c961910</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-03 10:06:47</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_sevirty</element>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-03 10:05:23</sys_created_on>
+            <sys_id>c40122ebdb30a340f87bfe9b0c96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_sevirty</sys_name>
+            <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="InfoSec">3a1210cbdb382340f87bfe9b0c9619e8</sys_scope>
+            <sys_update_name>sys_choice_x_parg2_infosec_infosec_incident_u_sevirty</sys_update_name>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-03 10:05:23</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

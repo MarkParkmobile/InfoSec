@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Lost InfoSec" max_length="40" name="x_parg2_infosec_lost_infosec" type="collection">
+        <element label="Affected Data" max_length="40" name="u_affected_data" type="string"/>
+        <element choice="1" label="Backup Data Avalable" max_length="40" name="u_backup_data_available" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Data Client Notification" max_length="40" name="u_data_client_notification" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Data Encrypted" max_length="40" name="u_data_encrypted" type="choice">
+            <choice/>
+        </element>
+        <element label="Description Type Data" max_length="40" name="u_desc_type_data" type="string"/>
+        <element label="loss theft mobile devices" max_length="40" name="u_loss_theft_mobile_devices" type="boolean"/>
+        <element choice="1" label="Other Material" max_length="40" name="u_other_material" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Password Reset" max_length="40" name="u_password_reset" type="choice">
+            <choice/>
+        </element>
+        <element label="Physical Protection" max_length="40" name="u_physical_protation" type="string"/>
+        <element choice="1" label="PMG Identifiable" max_length="40" name="u_pmg_identifiable" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Remote Wipe" max_length="40" name="u_remote_wipe" type="choice">
+            <choice/>
+        </element>
+        <element label="Specify Other Contents Lost" max_length="40" name="u_secify_other_contect" type="string"/>
+        <element label="Specifications Remote Wipe" max_length="40" name="u_specification_remote_wipe" type="string"/>
+        <element label="Specify Data Encrypted" max_length="40" name="u_specify_data_encrypted" type="string"/>
+        <element label="Specify Other Material" max_length="40" name="u_specify_other_material" type="string"/>
+        <element label="Table of Lost Content" max_length="40" name="u_table_lost_content" type="string"/>
+        <element choice="1" label="Type Data" max_length="40" name="u_type_data" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

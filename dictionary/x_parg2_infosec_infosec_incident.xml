@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="InfoSec Incident" max_length="40" name="x_parg2_infosec_infosec_incident" sizeclass="1" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Risk type" max_length="40" name="risk_type" type="integer">
+            <choice>
+                <element label="Availablity" sequence="0" value="2"/>
+                <element label="Confidentiality" sequence="1" value="1"/>
+                <element label="Intergrity" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Impacted other 3rd parties if any?" max_length="40" name="u_3rd_parties_impacted" type="boolean"/>
+        <element label="Were there any violations of client, vendor or other 3rd party contracts?" max_length="4000" name="u_3rd_party_violations" type="string"/>
+        <element choice_field="scrum_role" choice_table="sys_user_grmember" dependent="Manager" dependent_on_field="Manager" label="Accountable manager" max_length="32" name="u_accountable_management_contact" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Affected Application/System/Environment" max_length="40" name="u_affected" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Specify the affected data per client" max_length="4000" name="u_affected_data_per_client" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Authorities involved, if any." max_length="40" name="u_authorities_involved_if_any" type="integer">
+            <choice>
+                <element label="Police" sequence="0" value="1"/>
+                <element label="Fire department" sequence="1" value="2"/>
+                <element label="Medical services" sequence="2" value="3"/>
+                <element label="Financial regulator" sequence="3" value="4"/>
+                <element label="Data protection officer" sequence="4" value="5"/>
+                <element label="Supervisory authorities" sequence="5" value="6"/>
+                <element label="Other" sequence="6" value="8"/>
+                <element label="Not needed" sequence="7" value="7"/>
+            </choice>
+        </element>
+        <element label="What is/are the major cause(s)?" max_length="4000" name="u_cause" type="string"/>
+        <element label="have impacted clients or customers been contacted to report/discuss the incident" max_length="40" name="u_client_customer_contact" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="If client or customer data was on the device, have all been notified" max_length="40" name="u_client_or_customer_affected_notified" type="integer">
+            <choice>
+                <element label="None" sequence="0" value="1"/>
+                <element label="Some" sequence="1" value="2"/>
+                <element label="All" sequence="2" value="3"/>
+                <element label="Not applicable" sequence="3" value="0"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What communication measure(s) will you apply to notify all people concerned?" max_length="40" name="u_communication_measures" type="string">
+            <choice>
+                <element label="E-mail" sequence="0" value="e-mail"/>
+                <element label="Letter" sequence="1" value="letter"/>
+                <element label="Website" sequence="2" value="website"/>
+                <element label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="What is the content of the notification to all people concerned?" max_length="4000" name="u_content_notification" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Corrective actions" max_length="4000" name="u_corrective_actions" type="string"/>
+        <element label="Does any customer intend to ask for penalties?" max_length="40" name="u_customer_asked_penalties" type="boolean"/>
+        <element label="Does any customer intend to place an official complaint?" max_length="40" name="u_customer_official_complain" type="boolean"/>
+        <element label="Does any customer intend to take any other action that could lead to financial o" max_length="40" name="u_customer_other_action" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="If client or customer data was on the device, have all been notified" max_length="40" name="u_data_affected_client_notified" type="string">
+            <choice>
+                <element label="None" sequence="0" value="none"/>
+                <element label="Some" sequence="1" value="some"/>
+                <element label="All" sequence="2" value="all"/>
+                <element label="Not applicable" sequence="3" value="not applicable"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Describe the data as detailed as possible" max_length="4000" name="u_describe_data" type="string"/>
+        <element label="Details asked penatlies by customer" max_length="4000" name="u_details_customer_asked_penalties" type="string"/>
+        <element label="Details official complain by customers" max_length="4000" name="u_details_customer_official_complain" type="string"/>
+        <element label="Details other action by customer" max_length="4000" name="u_detail_customer_other_action" type="integer"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Detection data breach" max_length="4000" name="u_detection_data_breach" type="string"/>
+        <element label="How was the cause determined?" max_length="4000" name="u_determination_cause" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Experience notification all people concerned " max_length="4000" name="u_experience_notification_all_people_concerned" type="string"/>
+        <element label="Why did it happen?" max_length="4000" name="u_explaination" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Based on what ground(s) did you decide not to notify to all people" max_length="40" name="u_grounds_decision" type="string">
+            <choice>
+                <element label="The technical and/or organizational measures provide sufficient protection to omit a notification to" sequence="0" value="the technical and/or organizational measures provide sufficient protection to omit a notification to all people concerned"/>
+                <element label="It is highly improbable that the data breach will have undesirable consequestnces for the person's p" sequence="1" value="it is highly improbable that the data breach will have undesirable consequestnces for the person's privacy"/>
+                <element label="I have crucial reasons to leave out the notfication to all people concerned" sequence="2" value="I have crucial reasons to leave out the notfication to all people concerned"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Please clarify the grounds of your decision" max_length="4000" name="u_grounds_decision_clarification" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Have relevant passwords been reset?" max_length="40" name="u_have_relevant_passwords_been_reset" type="integer">
+            <choice>
+                <element label="Yes" sequence="0" value="1"/>
+                <element label="No" sequence="1" value="2"/>
+                <element label="Not applicable" sequence="2" value="0"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="How can the detection of the incident be inmproved?" max_length="4000" name="u_how_can_the_detection_of_the_incident_be_inmproved" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="How did the recovery approach develop and what could be improved?" max_length="4000" name="u_how_did_the_recovery_approach_develop_and_what_could_be_improved" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="How did the SIRT operate?" max_length="4000" name="u_how_did_the_sirt_operate" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Was the device easily identifiable as PMG's?" max_length="40" name="u_identifiable_pmgs" type="integer">
+            <choice>
+                <element label="Yes" sequence="0" value="1"/>
+                <element label="No" sequence="1" value="2"/>
+                <element label="Not applicable" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Impacted 3rd Parties" max_length="4000" name="u_impacted_3rd_parties" type="string"/>
+        <element label="Impacted users" max_length="4000" name="u_impacted_users" type="string"/>
+        <element label="Impacted clients or customers if any" max_length="4000" name="u_impaxted_client_customers" type="string"/>
+        <element label="Incident date and time" max_length="40" name="u_incident_date_time" read_only="true" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Incident type" max_length="40" name="u_incident_type" read_only="true" type="string">
+            <choice>
+                <element label="Data Breach" sequence="0" value="data breach"/>
+                <element label="Attrition" sequence="1" value="attrition"/>
+                <element label="Web attacks" sequence="2" value="web attacks"/>
+                <element label="E-mail stacks" sequence="3" value="e-mail stacks"/>
+                <element label="Improper usage" sequence="4" value="improper usage"/>
+                <element label="Loss or theft of equipment" sequence="5" value="loss or theft of equipment"/>
+                <element label="Outage" sequence="6" value="outage"/>
+                <element label="Other" sequence="7" value="other"/>
+            </choice>
+        </element>
+        <element label="Who should be informed INTERNAL" max_length="4000" name="u_inform_internal" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Internal evaluation" max_length="4000" name="u_internal_evaluation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="International authorities involved, if any." max_length="40" name="u_international_authorities_involved" type="string">
+            <choice>
+                <element label="Yes, namely" sequence="0" value="Yes, namely"/>
+                <element label="No" sequence="3" value="no"/>
+                <element label="Currently unkown" sequence="4" value="currently unkown"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="International impact" max_length="40" name="u_international_impact" type="string">
+            <choice>
+                <element label="Yes, namely" sequence="0" value="Yes, namely"/>
+                <element label="No" sequence="3" value="no"/>
+                <element label="Currently unknown" sequence="4" value="currently unknown"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Is a data backup available?" max_length="40" name="u_is_a_data_backup_available" type="integer">
+            <choice>
+                <element label="Yes" sequence="0" value="1"/>
+                <element label="No" sequence="1" value="2"/>
+                <element label="Not applicable" sequence="2" value="0"/>
+            </choice>
+        </element>
+        <element label="Were there any legal or regulatory violations?" max_length="4000" name="u_legal_violation" type="string"/>
+        <element label="Lessons Learned" max_length="4000" name="u_lessons_learned" type="string"/>
+        <element attributes="tree_picker=true" dependent="company" dependent_on_field="company" label="Location of where the incident ocurred" max_length="80" name="u_location" read_only="true" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Table of lost documents" max_length="4000" name="u_lost_documents" type="string"/>
+        <element label="Incident managment contacts" max_length="4000" name="u_management_contacts" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Notification all people concerned " max_length="4000" name="u_notification_all_people_concerned" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Notification Supervisory Authority " max_length="4000" name="u_notification_supervisory_authority" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Notification  third parties" max_length="4000" name="u_notification_third_parties" type="string"/>
+        <element label="How many people will you notify?" max_length="40" name="u_number_notief_people" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Origin of the incident" max_length="40" name="u_origin_incident" read_only="true" type="string">
+            <choice>
+                <element label="Internal Parkmobile" sequence="0" value="internal parkmobile"/>
+                <element label="External Parkmobile" sequence="1" value="external parkmobile"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Other Authoritoes" max_length="4000" name="u_other_authorities" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="What other communication measure(s) will you apply to notify all people concerne" max_length="4000" name="u_other_communication_measures" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Anything relevant, uncovered in previous sections" max_length="4000" name="u_other_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other locations" max_length="40" name="u_other_location" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Specify any other contents lost" max_length="4000" name="u_other_lost_content" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Specify other lost material" max_length="4000" name="u_other_lost_material" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Other material lost" max_length="40" name="u_other_material_lost" type="integer">
+            <choice>
+                <element label="Storage device" sequence="0" value="2"/>
+                <element label="Paper docs" sequence="1" value="3"/>
+                <element label="Keys" sequence="2" value="1"/>
+                <element label="Other" sequence="3" value="0"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Other type" max_length="40" name="u_other_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Have relevant passwords been reset?" max_length="40" name="u_password_reset" type="string">
+            <choice>
+                <element label="No" sequence="0" value="no"/>
+                <element label="Yes" sequence="1" value="yes"/>
+                <element label="Not applicable" sequence="2" value="not applicable"/>
+            </choice>
+        </element>
+        <element label="Is personal data involved?" max_length="40" name="u_personal_data_involved" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="What is the telephone number we can reach you on?" max_length="40" name="u_phone_number_caller" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe physical protection of the device" max_length="4000" name="u_physical_protection" type="string"/>
+        <element label="Preventive actions" max_length="4000" name="u_preventive_actions" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Was a remote wipe, device lock performed? " max_length="40" name="u_remote_wipe_lock" type="integer">
+            <choice>
+                <element label="Remote wipe" sequence="0" value="remote wipe"/>
+                <element label="Remote lock" sequence="1" value="remote lock"/>
+                <element label="Not applicable" sequence="2" value="not applicable"/>
+                <element label="Other" sequence="3" value="Other"/>
+            </choice>
+        </element>
+        <element label="Sequence Events" max_length="4000" name="u_sequence_events" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Sevirty" max_length="40" name="u_sevirty" type="integer">
+            <choice>
+                <element label="Critical" value="1"/>
+                <element label="High" value="2"/>
+                <element label="Low" value="4"/>
+                <element label="Medium" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Specify encryption" max_length="4000" name="u_specify_encryption" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Specify other material lost" max_length="4000" name="u_specify_other_material_lost" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Specify remote wipe or lock" max_length="4000" name="u_specify_remote_wipeorlock" type="string"/>
+        <element label="What actions are taken to correct or mitigate the incident?" max_length="4000" name="u_taken_actions" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Technical measures" max_length="40" name="u_technical_measures" type="string">
+            <choice>
+                <element label="Yes, by" sequence="0" value="Yes, by"/>
+                <element label="Partial, by" sequence="3" value="Partial, by"/>
+                <element label="No" sequence="6" value="no"/>
+            </choice>
+        </element>
+        <element attributes="start_locked=false, edge_encryption_enabled=true;" choice="1" label="Technical and organizational measures taken to solve or prevent further data bre" max_length="40" name="u_tech_org_measues" type="glide_list">
+            <choice>
+                <element label="pseudonomyzation" sequence="0" value="pseudonomyzation"/>
+                <element label="encryption (incl. separate password for access)" sequence="1" value="encryption (incl. separate password for access)"/>
+                <element label="Hashing" sequence="2" value="hashing"/>
+                <element label="server security  monitoring (SIEM?)" sequence="3" value="server security  monitoring (siem?)"/>
+                <element label="private cloud solution" sequence="4" value="private cloud solution"/>
+                <element label="IAM via personal account/key" sequence="5" value="iam via personal account/key"/>
+                <element label="other forms of restricted access" sequence="6" value="other forms of restricted access"/>
+                <element label="vulnerability scans" sequence="7" value="vulnerability scans"/>
+                <element label="penetration tests" sequence="8" value="penetration tests"/>
+            </choice>
+        </element>
+        <element label="Is there theft or loss of mobile devices or peripherals?" max_length="40" name="u_theft_loss" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="What type of data was stored on the device?" max_length="40" name="u_type_of_data" type="integer">
+            <choice>
+                <element label="E-mail" sequence="0" value="1"/>
+                <element label="Company data" sequence="1" value="2"/>
+                <element label="Client data" sequence="2" value="3"/>
+                <element label="Not aplicable" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element label="Were there any users impacted" max_length="40" name="u_users_impacted" type="boolean"/>
+        <element choice="1" label="Was the data encrypted?  If other, specify the encryption tool + version" max_length="40" name="u_was_the_data_encrypted" type="integer">
+            <choice>
+                <element label="Yes, Bitlocker" sequence="0" value="0"/>
+                <element label="Yes, other" sequence="2" value="1"/>
+                <element label="Not encrypted" sequence="4" value="3"/>
+                <element label="Not applicable" sequence="5" value="4"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="3" default="1" label="What type of data was stored on the device?" max_length="40" name="u_what_type_of_data_was_stored_on_the_device" type="integer">
+            <choice/>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="What was the quality of  determining the impact and could this been done better " max_length="4000" name="u_what_was_the_quality_of_determining_the_impact_and_could_this_been_done_better" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="When did you notify all people concerned? (internal/external)" max_length="40" name="u_when_did_notify_all_people" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="When will you notify all people concerned? (internal/external)" max_length="4000" name="u_when_will_notify_all_people" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Which international authorities are involved" max_length="4000" name="u_which_international_authorities_involved" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Who is impacted internatiolly" max_length="4000" name="u_who_internatial_impacted" type="string"/>
+    </element>
+</database>

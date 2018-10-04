@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_other_material_lost</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>mark.zijlstra</sys_created_by>
+        <sys_created_on>2018-10-03 17:52:38</sys_created_on>
+        <sys_id>54ebc0f7db74a340f87bfe9b0c961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_other_material_lost</sys_name>
+        <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="InfoSec">3a1210cbdb382340f87bfe9b0c9619e8</sys_scope>
+        <sys_update_name>sys_ui_policy_action_54ebc0f7db74a340f87bfe9b0c961954</sys_update_name>
+        <sys_updated_by>mark.zijlstra</sys_updated_by>
+        <sys_updated_on>2018-10-03 17:52:38</sys_updated_on>
+        <table>x_parg2_infosec_infosec_incident</table>
+        <ui_policy display_value="Hide theft or loss fields">d6ba8217dbf46340f87bfe9b0c96197c</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

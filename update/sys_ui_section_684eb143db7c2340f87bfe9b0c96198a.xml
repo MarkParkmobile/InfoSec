@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Legal or contractual violations" section_id="684eb143db7c2340f87bfe9b0c96198a" sys_domain="global" table="x_parg2_infosec_infosec_incident" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_legal_violation</element>
+            <position>0</position>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-02 11:32:36</sys_created_on>
+            <sys_id>6b5b65dfdb746340f87bfe9b0c961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legal or contractual violations" display_value="Legal or contractual violations" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">684eb143db7c2340f87bfe9b0c96198a</sys_ui_section>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-02 11:32:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_3rd_party_violations</element>
+            <position>1</position>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-02 11:32:36</sys_created_on>
+            <sys_id>eb5b65dfdb746340f87bfe9b0c961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legal or contractual violations" display_value="Legal or contractual violations" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">684eb143db7c2340f87bfe9b0c96198a</sys_ui_section>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-02 11:32:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_impaxted_client_customers</element>
+            <position>2</position>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-02 11:32:36</sys_created_on>
+            <sys_id>6f5b65dfdb746340f87bfe9b0c961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legal or contractual violations" display_value="Legal or contractual violations" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">684eb143db7c2340f87bfe9b0c96198a</sys_ui_section>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-02 11:32:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_client_customer_contact</element>
+            <position>3</position>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-02 11:32:36</sys_created_on>
+            <sys_id>ef5b65dfdb746340f87bfe9b0c961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legal or contractual violations" display_value="Legal or contractual violations" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">684eb143db7c2340f87bfe9b0c96198a</sys_ui_section>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-02 11:32:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_users_impacted</element>
+            <position>4</position>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-02 11:32:36</sys_created_on>
+            <sys_id>635b65dfdb746340f87bfe9b0c961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legal or contractual violations" display_value="Legal or contractual violations" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">684eb143db7c2340f87bfe9b0c96198a</sys_ui_section>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-02 11:32:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_impacted_users</element>
+            <position>5</position>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-02 11:32:36</sys_created_on>
+            <sys_id>e35b65dfdb746340f87bfe9b0c961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legal or contractual violations" display_value="Legal or contractual violations" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">684eb143db7c2340f87bfe9b0c96198a</sys_ui_section>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-02 11:32:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_3rd_parties_impacted</element>
+            <position>6</position>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-02 11:32:36</sys_created_on>
+            <sys_id>675b65dfdb746340f87bfe9b0c961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legal or contractual violations" display_value="Legal or contractual violations" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">684eb143db7c2340f87bfe9b0c96198a</sys_ui_section>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-02 11:32:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_impacted_3rd_parties</element>
+            <position>7</position>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-02 11:32:36</sys_created_on>
+            <sys_id>e75b65dfdb746340f87bfe9b0c961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legal or contractual violations" display_value="Legal or contractual violations" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">684eb143db7c2340f87bfe9b0c96198a</sys_ui_section>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-02 11:32:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_customer_asked_penalties</element>
+            <position>8</position>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-02 11:32:36</sys_created_on>
+            <sys_id>6b5b65dfdb746340f87bfe9b0c961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legal or contractual violations" display_value="Legal or contractual violations" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">684eb143db7c2340f87bfe9b0c96198a</sys_ui_section>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-02 11:32:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_details_customer_asked_penalties</element>
+            <position>9</position>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-02 11:32:36</sys_created_on>
+            <sys_id>eb5b65dfdb746340f87bfe9b0c961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legal or contractual violations" display_value="Legal or contractual violations" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">684eb143db7c2340f87bfe9b0c96198a</sys_ui_section>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-02 11:32:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_customer_official_complain</element>
+            <position>10</position>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-02 11:32:36</sys_created_on>
+            <sys_id>6f5b65dfdb746340f87bfe9b0c961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legal or contractual violations" display_value="Legal or contractual violations" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">684eb143db7c2340f87bfe9b0c96198a</sys_ui_section>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-02 11:32:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_details_customer_official_complain</element>
+            <position>11</position>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-02 11:32:36</sys_created_on>
+            <sys_id>ef5b65dfdb746340f87bfe9b0c961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legal or contractual violations" display_value="Legal or contractual violations" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">684eb143db7c2340f87bfe9b0c96198a</sys_ui_section>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-02 11:32:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_customer_other_action</element>
+            <position>12</position>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-02 11:32:36</sys_created_on>
+            <sys_id>635b65dfdb746340f87bfe9b0c96198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legal or contractual violations" display_value="Legal or contractual violations" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">684eb143db7c2340f87bfe9b0c96198a</sys_ui_section>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-02 11:32:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_detail_customer_other_action</element>
+            <position>13</position>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-02 11:32:36</sys_created_on>
+            <sys_id>e35b65dfdb746340f87bfe9b0c96198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legal or contractual violations" display_value="Legal or contractual violations" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">684eb143db7c2340f87bfe9b0c96198a</sys_ui_section>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-02 11:32:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Legal or contractual violations</caption>
+            <header>false</header>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-01 18:16:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>684eb143db7c2340f87bfe9b0c96198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Legal or contractual violations</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="InfoSec">3a1210cbdb382340f87bfe9b0c9619e8</sys_scope>
+            <sys_update_name>sys_ui_section_684eb143db7c2340f87bfe9b0c96198a</sys_update_name>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-01 18:16:39</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

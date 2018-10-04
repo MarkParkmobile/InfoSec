@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Infosec Incident Action" max_length="40" name="x_parg2_infosec_infosec_incident_action" type="collection">
+        <element choice="1" label="Authorities Involved" max_length="40" name="u_authorities_involved" type="choice">
+            <choice/>
+        </element>
+        <element label="Clarify Reason Not Notify" max_length="40" name="u_clarify_reason_not_notify" type="string"/>
+        <element label="Content Notification" max_length="40" name="u_content_notification" type="string"/>
+        <element choice="1" label="Communication Measures" max_length="40" name="u_coomunication_measures" type="choice">
+            <choice/>
+        </element>
+        <element label="Corrective Actions" max_length="40" name="u_corrective_actions" type="string"/>
+        <element label="Did Notify" max_length="40" name="u_did_notify" type="string"/>
+        <element choice="1" label="International Impact" max_length="40" name="u_international_impact" type="choice">
+            <choice/>
+        </element>
+        <element label="International Impact Details" max_length="40" name="u_international_impact_details" type="string"/>
+        <element display="true" label="Involved Authorities" max_length="40" name="u_involved_authorities" type="string"/>
+        <element label="Lessons Learned" max_length="40" name="u_lessons_learned" type="string"/>
+        <element label="Number of Notification" max_length="40" name="u_number_notification" type="integer"/>
+        <element label="Other Communication Measures" max_length="40" name="u_other_communication_measures" type="string"/>
+        <element label="Preventive Action" max_length="40" name="u_preventive_action" type="string"/>
+        <element choice="1" label="Reason Not Notify" max_length="40" name="u_reason_not_notify" type="choice">
+            <choice/>
+        </element>
+        <element label="Taken Action" max_length="40" name="u_taken_action" type="string"/>
+        <element choice="1" label="Technical Measures" max_length="40" name="u_technical_measures" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Technical Organizational Measures" max_length="40" name="u_technical_organizational_measures" type="choice">
+            <choice/>
+        </element>
+        <element label="When Notify" max_length="40" name="u_when_notify" type="string"/>
+    </element>
+</database>
