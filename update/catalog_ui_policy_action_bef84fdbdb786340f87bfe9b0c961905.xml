@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="Create Infosec Incident">c0c79a9fdbf46340f87bfe9b0c961956</catalog_item>
+        <catalog_item display_value="Create Information Security Incident">c0c79a9fdbf46340f87bfe9b0c961956</catalog_item>
         <catalog_variable>IO:31a48f1bdb786340f87bfe9b0c9619ed</catalog_variable>
         <disabled>ignore</disabled>
         <field/>

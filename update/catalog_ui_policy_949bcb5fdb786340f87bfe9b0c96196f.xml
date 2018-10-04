@@ -8,7 +8,7 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <catalog_conditions>IO:d8b9d213db386340f87bfe9b0c961962LIKE5372bc44db41e340f87bfe9b0c961967^EQ</catalog_conditions>
-        <catalog_item display_value="Create Infosec Incident">c0c79a9fdbf46340f87bfe9b0c961956</catalog_item>
+        <catalog_item display_value="Create Information Security Incident">c0c79a9fdbf46340f87bfe9b0c961956</catalog_item>
         <conditions/>
         <description/>
         <global>true</global>
