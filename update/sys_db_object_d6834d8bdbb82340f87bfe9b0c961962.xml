@@ -34,7 +34,7 @@
         <sys_updated_by>mark.zijlstra</sys_updated_by>
         <sys_updated_on>2018-10-01 14:34:31</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_parg2_infosec.lost_infosec_user" name="x_parg2_infosec.lost_infosec_user">5d3701cbdbb82340f87bfe9b0c96198b</user_role>
+        <user_role/>
         <ws_access>false</ws_access>
     </sys_db_object>
 </record_update>

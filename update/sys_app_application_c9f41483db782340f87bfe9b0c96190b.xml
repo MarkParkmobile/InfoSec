@@ -8,7 +8,7 @@
         <hint/>
         <name>InfoSec Incident</name>
         <order>100</order>
-        <roles>x_parg2_infosec.infosec_incident_user</roles>
+        <roles/>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>mark.zijlstra</sys_created_by>
         <sys_created_on>2018-10-01 10:36:33</sys_created_on>

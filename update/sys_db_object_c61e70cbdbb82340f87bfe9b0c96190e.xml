@@ -34,7 +34,7 @@
         <sys_updated_by>mark.zijlstra</sys_updated_by>
         <sys_updated_on>2018-10-01 14:34:25</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_parg2_infosec.infosec_incident_action_user" name="x_parg2_infosec.infosec_incident_action_user">c3278183dbf82340f87bfe9b0c961910</user_role>
+        <user_role/>
         <ws_access>false</ws_access>
     </sys_db_object>
 </record_update>

@@ -8,20 +8,20 @@
         <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
-        <name>x_parg2_infosec.infosec_incident_action_user</name>
+        <name>x_parg2_infosec.manager</name>
         <scoped_admin>false</scoped_admin>
-        <suffix>infosec_incident_action_user</suffix>
+        <suffix>manager</suffix>
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>mark.zijlstra</sys_created_by>
-        <sys_created_on>2018-10-01 14:15:58</sys_created_on>
-        <sys_id>c3278183dbf82340f87bfe9b0c961910</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_parg2_infosec.infosec_incident_action_user</sys_name>
+        <sys_created_on>2018-10-04 09:54:43</sys_created_on>
+        <sys_id>a818a377dbbca340f87bfe9b0c96191e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_parg2_infosec.manager</sys_name>
         <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
         <sys_policy/>
         <sys_scope display_value="InfoSec">3a1210cbdb382340f87bfe9b0c9619e8</sys_scope>
-        <sys_update_name>sys_user_role_c3278183dbf82340f87bfe9b0c961910</sys_update_name>
+        <sys_update_name>sys_user_role_a818a377dbbca340f87bfe9b0c96191e</sys_update_name>
         <sys_updated_by>mark.zijlstra</sys_updated_by>
-        <sys_updated_on>2018-10-01 14:15:58</sys_updated_on>
+        <sys_updated_on>2018-10-04 10:04:57</sys_updated_on>
     </sys_user_role>
 </record_update>

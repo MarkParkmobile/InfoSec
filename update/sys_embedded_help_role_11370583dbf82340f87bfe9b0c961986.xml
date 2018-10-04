@@ -2,7 +2,7 @@
 <record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="x_parg2_infosec.lost_infosec_user" name="x_parg2_infosec.lost_infosec_user">5d3701cbdbb82340f87bfe9b0c96198b</role>
+        <role/>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>mark.zijlstra</sys_created_by>
         <sys_created_on>2018-10-01 14:16:08</sys_created_on>
