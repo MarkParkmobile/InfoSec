@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="InfoSec Incident">c9f41483db782340f87bfe9b0c96190b</application>
+        <application display_value="Information Security Incident">c9f41483db782340f87bfe9b0c96190b</application>
         <assessment/>
         <content_page/>
         <device_type/>
