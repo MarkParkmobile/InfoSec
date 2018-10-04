@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="InfoSec Locations" max_length="40" name="x_parg2_infosec_infosec_locations" type="collection">
+        <element display="true" label="Location" max_length="40" name="u_location" type="string"/>
+        <element label="Value" max_length="40" name="u_value" type="integer"/>
+    </element>
+</database>

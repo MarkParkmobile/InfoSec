@@ -5,7 +5,7 @@
         <attributes/>
         <cat_item display_value="Create Infosec Incident">c0c79a9fdbf46340f87bfe9b0c961956</cat_item>
         <category/>
-        <choice_direction>down</choice_direction>
+        <choice_direction>across</choice_direction>
         <choice_field/>
         <choice_table/>
         <create_roles/>
@@ -26,10 +26,10 @@
         <include_none>true</include_none>
         <instructions/>
         <layout>normal</layout>
-        <list_table/>
-        <lookup_label/>
+        <list_table>x_parg2_infosec_infosec_locations</list_table>
+        <lookup_label>Location</lookup_label>
         <lookup_price/>
-        <lookup_table>x_parg2_infosec_infosec_incident</lookup_table>
+        <lookup_table>x_parg2_infosec_infosec_locations</lookup_table>
         <lookup_unique>false</lookup_unique>
         <lookup_value>u_location</lookup_value>
         <macro/>
@@ -60,17 +60,17 @@
         <sys_created_by>mark.zijlstra</sys_created_by>
         <sys_created_on>2018-10-02 14:56:06</sys_created_on>
         <sys_id>d8b9d213db386340f87bfe9b0c961962</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Location of where the incident ocurred</sys_name>
         <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
         <sys_policy/>
         <sys_scope display_value="InfoSec">3a1210cbdb382340f87bfe9b0c9619e8</sys_scope>
         <sys_update_name>item_option_new_d8b9d213db386340f87bfe9b0c961962</sys_update_name>
         <sys_updated_by>mark.zijlstra</sys_updated_by>
-        <sys_updated_on>2018-10-02 18:38:24</sys_updated_on>
+        <sys_updated_on>2018-10-04 15:39:19</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>5</type>
+        <type>21</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>advanced</use_reference_qualifier>

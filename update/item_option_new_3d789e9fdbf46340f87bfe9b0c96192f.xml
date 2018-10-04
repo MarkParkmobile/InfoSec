@@ -60,16 +60,16 @@
         <sys_created_by>mark.zijlstra</sys_created_by>
         <sys_created_on>2018-10-02 14:50:28</sys_created_on>
         <sys_id>3d789e9fdbf46340f87bfe9b0c96192f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Incident Date and time</sys_name>
         <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
         <sys_policy/>
         <sys_scope display_value="InfoSec">3a1210cbdb382340f87bfe9b0c9619e8</sys_scope>
         <sys_update_name>item_option_new_3d789e9fdbf46340f87bfe9b0c96192f</sys_update_name>
         <sys_updated_by>mark.zijlstra</sys_updated_by>
-        <sys_updated_on>2018-10-02 18:38:40</sys_updated_on>
+        <sys_updated_on>2018-10-04 14:49:48</sys_updated_on>
         <table/>
-        <tooltip>Please select the date and time the inci</tooltip>
+        <tooltip>When did the incident occur?</tooltip>
         <type>10</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
