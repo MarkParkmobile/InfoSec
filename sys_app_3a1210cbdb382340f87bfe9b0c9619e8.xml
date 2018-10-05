@@ -23,14 +23,14 @@
         <sys_created_by>mark.zijlstra</sys_created_by>
         <sys_created_on>2018-10-01 10:24:07</sys_created_on>
         <sys_id>3a1210cbdb382340f87bfe9b0c9619e8</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_updated_by>mark.zijlstra</sys_updated_by>
-        <sys_updated_on>2018-10-05 12:38:07</sys_updated_on>
+        <sys_updated_on>2018-10-05 12:56:39</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.5</version>
+        <version>1.0.6</version>
     </sys_app>
 </record_update>
