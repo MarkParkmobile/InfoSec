@@ -38,10 +38,10 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>short_description</name>
-        <order>1000</order>
+        <order>90</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Short description</question_text>
+        <question_text>Give a short description of the incident</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -60,14 +60,14 @@
         <sys_created_by>mark.zijlstra</sys_created_by>
         <sys_created_on>2018-10-02 18:05:14</sys_created_on>
         <sys_id>a6f48f1bdb786340f87bfe9b0c9619f1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Short description</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Give a short description of the incident</sys_name>
         <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
         <sys_policy/>
         <sys_scope display_value="InfoSec">3a1210cbdb382340f87bfe9b0c9619e8</sys_scope>
         <sys_update_name>item_option_new_a6f48f1bdb786340f87bfe9b0c9619f1</sys_update_name>
         <sys_updated_by>mark.zijlstra</sys_updated_by>
-        <sys_updated_on>2018-10-02 18:06:56</sys_updated_on>
+        <sys_updated_on>2018-10-05 12:54:30</sys_updated_on>
         <table/>
         <tooltip>Give your incident a title</tooltip>
         <type>6</type>
