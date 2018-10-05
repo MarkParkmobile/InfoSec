@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_cause" table="x_parg2_infosec_infosec_incident">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_specify_remote_wipe_or_lock" table="x_parg2_infosec_infosec_incident">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>What is/are the major cause(s)?</column_label>
+        <column_label>Specify remote wipe or lock</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -28,13 +28,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_cause</element>
+        <element>u_specify_remote_wipe_or_lock</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>4000</max_length>
         <name>x_parg2_infosec_infosec_incident</name>
         <next_element/>
@@ -53,16 +53,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>mark.zijlstra</sys_created_by>
-        <sys_created_on>2018-10-01 17:35:27</sys_created_on>
-        <sys_id>15446f7fdb7ca340f87bfe9b0c961953</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>What is/are the major cause(s)?</sys_name>
+        <sys_created_on>2018-10-05 11:47:09</sys_created_on>
+        <sys_id>995b45dcdb89e340f87bfe9b0c961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Specify remote wipe or lock</sys_name>
         <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
         <sys_policy/>
         <sys_scope display_value="InfoSec">3a1210cbdb382340f87bfe9b0c9619e8</sys_scope>
-        <sys_update_name>sys_dictionary_x_parg2_infosec_infosec_incident_u_cause</sys_update_name>
+        <sys_update_name>sys_dictionary_x_parg2_infosec_infosec_incident_u_specify_remote_wipe_or_lock</sys_update_name>
         <sys_updated_by>mark.zijlstra</sys_updated_by>
-        <sys_updated_on>2018-10-05 11:39:43</sys_updated_on>
+        <sys_updated_on>2018-10-05 11:47:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

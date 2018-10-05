@@ -3,19 +3,19 @@
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
         <disabled>ignore</disabled>
         <field>u_grounds_decision_clarification</field>
-        <mandatory>ignore</mandatory>
+        <mandatory>true</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>mark.zijlstra</sys_created_by>
         <sys_created_on>2018-10-02 14:33:19</sys_created_on>
         <sys_id>dd94d21fdbf46340f87bfe9b0c9619b3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>u_grounds_decision_clarification</sys_name>
         <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
         <sys_policy/>
         <sys_scope display_value="InfoSec">3a1210cbdb382340f87bfe9b0c9619e8</sys_scope>
         <sys_update_name>sys_ui_policy_action_dd94d21fdbf46340f87bfe9b0c9619b3</sys_update_name>
         <sys_updated_by>mark.zijlstra</sys_updated_by>
-        <sys_updated_on>2018-10-02 14:33:19</sys_updated_on>
+        <sys_updated_on>2018-10-05 11:33:26</sys_updated_on>
         <table>x_parg2_infosec_infosec_incident</table>
         <ui_policy display_value="Hide clairification grounds not to notify">e354121fdbf46340f87bfe9b0c9619fa</ui_policy>
         <visible>true</visible>
