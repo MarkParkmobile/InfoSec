@@ -63,18 +63,37 @@
             <element>u_communication_measures</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Other</label>
+            <label>Combination</label>
             <language>en</language>
             <name>x_parg2_infosec_infosec_incident</name>
             <sequence>3</sequence>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-06 15:07:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44f2cf6cdbc52740f87bfe9b0c9619fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-06 15:07:36</sys_updated_on>
+            <value>combination</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_communication_measures</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence>4</sequence>
             <sys_created_by>mark.zijlstra</sys_created_by>
             <sys_created_on>2018-10-02 10:52:13</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>54226d1bdb746340f87bfe9b0c96193c</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-02 14:30:19</sys_updated_on>
+            <sys_updated_on>2018-10-06 15:07:36</sys_updated_on>
             <value>other</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">

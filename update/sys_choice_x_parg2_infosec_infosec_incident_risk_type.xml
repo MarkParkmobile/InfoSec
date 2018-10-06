@@ -6,7 +6,7 @@
             <element>risk_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Availablity</label>
+            <label>availability</label>
             <language>en</language>
             <name>x_parg2_infosec_infosec_incident</name>
             <sequence>0</sequence>
@@ -15,9 +15,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>2ab26ee3db70a340f87bfe9b0c9619a4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-03 10:12:56</sys_updated_on>
+            <sys_updated_on>2018-10-06 13:57:35</sys_updated_on>
             <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">

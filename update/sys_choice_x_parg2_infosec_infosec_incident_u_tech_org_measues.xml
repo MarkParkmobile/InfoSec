@@ -5,6 +5,25 @@
             <dependent_value/>
             <element>u_tech_org_measues</element>
             <hint/>
+            <inactive>true</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence>0</sequence>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-06 14:30:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d66ab268dbc52740f87bfe9b0c9619ee</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-06 14:36:36</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tech_org_measues</element>
+            <hint/>
             <inactive>false</inactive>
             <label>pseudonomyzation</label>
             <language>en</language>
@@ -15,9 +34,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>9c226d1bdb746340f87bfe9b0c96191f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-02 10:52:13</sys_updated_on>
+            <sys_updated_on>2018-10-06 14:31:08</sys_updated_on>
             <value>pseudonomyzation</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">

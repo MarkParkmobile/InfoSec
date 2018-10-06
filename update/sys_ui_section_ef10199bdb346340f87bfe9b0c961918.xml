@@ -5,13 +5,13 @@
             <element>u_theft_loss</element>
             <position>0</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-05 12:07:49</sys_created_on>
-            <sys_id>f03011d0dbc9e340f87bfe9b0c961944</sys_id>
+            <sys_created_on>2018-10-06 14:11:36</sys_created_on>
+            <sys_id>3716b2a4dbc52740f87bfe9b0c961961</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Theft and Loss" display_value="Theft and Loss" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">ef10199bdb346340f87bfe9b0c961918</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-05 12:07:49</sys_updated_on>
+            <sys_updated_on>2018-10-06 14:11:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>u_was_the_data_encrypted</element>
             <position>1</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-05 12:07:49</sys_created_on>
-            <sys_id>743011d0dbc9e340f87bfe9b0c961944</sys_id>
+            <sys_created_on>2018-10-06 14:11:36</sys_created_on>
+            <sys_id>bb16b2a4dbc52740f87bfe9b0c961961</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Theft and Loss" display_value="Theft and Loss" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">ef10199bdb346340f87bfe9b0c961918</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-05 12:07:49</sys_updated_on>
+            <sys_updated_on>2018-10-06 14:11:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>u_specify_encryption</element>
             <position>2</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-05 12:07:49</sys_created_on>
-            <sys_id>f43011d0dbc9e340f87bfe9b0c961944</sys_id>
+            <sys_created_on>2018-10-06 14:11:36</sys_created_on>
+            <sys_id>3f16b2a4dbc52740f87bfe9b0c961961</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Theft and Loss" display_value="Theft and Loss" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">ef10199bdb346340f87bfe9b0c961918</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-05 12:07:49</sys_updated_on>
+            <sys_updated_on>2018-10-06 14:11:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>u_type_of_data</element>
             <position>3</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-05 12:07:49</sys_created_on>
-            <sys_id>783011d0dbc9e340f87bfe9b0c961944</sys_id>
+            <sys_created_on>2018-10-06 14:11:36</sys_created_on>
+            <sys_id>bf16b2a4dbc52740f87bfe9b0c961961</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Theft and Loss" display_value="Theft and Loss" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">ef10199bdb346340f87bfe9b0c961918</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-05 12:07:49</sys_updated_on>
+            <sys_updated_on>2018-10-06 14:11:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>u_describe_data</element>
             <position>4</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-05 12:07:49</sys_created_on>
-            <sys_id>f83011d0dbc9e340f87bfe9b0c961944</sys_id>
+            <sys_created_on>2018-10-06 14:11:36</sys_created_on>
+            <sys_id>3316b2a4dbc52740f87bfe9b0c961962</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Theft and Loss" display_value="Theft and Loss" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">ef10199bdb346340f87bfe9b0c961918</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-05 12:07:49</sys_updated_on>
+            <sys_updated_on>2018-10-06 14:11:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>u_physical_protection</element>
             <position>5</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-05 12:07:49</sys_created_on>
-            <sys_id>7c3011d0dbc9e340f87bfe9b0c961944</sys_id>
+            <sys_created_on>2018-10-06 14:11:36</sys_created_on>
+            <sys_id>b316b2a4dbc52740f87bfe9b0c961962</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Theft and Loss" display_value="Theft and Loss" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">ef10199bdb346340f87bfe9b0c961918</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-05 12:07:49</sys_updated_on>
+            <sys_updated_on>2018-10-06 14:11:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -89,13 +89,13 @@
             <element>u_affected_data_per_client</element>
             <position>6</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-05 12:07:49</sys_created_on>
-            <sys_id>fc3011d0dbc9e340f87bfe9b0c961944</sys_id>
+            <sys_created_on>2018-10-06 14:11:36</sys_created_on>
+            <sys_id>3716b2a4dbc52740f87bfe9b0c961962</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Theft and Loss" display_value="Theft and Loss" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">ef10199bdb346340f87bfe9b0c961918</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-05 12:07:49</sys_updated_on>
+            <sys_updated_on>2018-10-06 14:11:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -103,13 +103,13 @@
             <element>u_client_or_customer_affected_notified</element>
             <position>7</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-05 12:07:49</sys_created_on>
-            <sys_id>703011d0dbc9e340f87bfe9b0c961945</sys_id>
+            <sys_created_on>2018-10-06 14:11:36</sys_created_on>
+            <sys_id>b716b2a4dbc52740f87bfe9b0c961962</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Theft and Loss" display_value="Theft and Loss" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">ef10199bdb346340f87bfe9b0c961918</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-05 12:07:49</sys_updated_on>
+            <sys_updated_on>2018-10-06 14:11:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -117,125 +117,111 @@
             <element>u_is_a_data_backup_available</element>
             <position>8</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-05 12:07:49</sys_created_on>
-            <sys_id>f03011d0dbc9e340f87bfe9b0c961945</sys_id>
+            <sys_created_on>2018-10-06 14:11:36</sys_created_on>
+            <sys_id>3b16b2a4dbc52740f87bfe9b0c961962</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Theft and Loss" display_value="Theft and Loss" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">ef10199bdb346340f87bfe9b0c961918</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-05 12:07:49</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_data_affected_client_notified</element>
-            <position>9</position>
-            <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-05 12:07:49</sys_created_on>
-            <sys_id>743011d0dbc9e340f87bfe9b0c961945</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Theft and Loss" display_value="Theft and Loss" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">ef10199bdb346340f87bfe9b0c961918</sys_ui_section>
-            <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-05 12:07:49</sys_updated_on>
+            <sys_updated_on>2018-10-06 14:11:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_have_relevant_passwords_been_reset</element>
-            <position>10</position>
+            <position>9</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-05 12:07:49</sys_created_on>
-            <sys_id>f43011d0dbc9e340f87bfe9b0c961945</sys_id>
+            <sys_created_on>2018-10-06 14:11:36</sys_created_on>
+            <sys_id>bb16b2a4dbc52740f87bfe9b0c961962</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Theft and Loss" display_value="Theft and Loss" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">ef10199bdb346340f87bfe9b0c961918</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-05 12:07:49</sys_updated_on>
+            <sys_updated_on>2018-10-06 14:11:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_remote_wipe_lock</element>
-            <position>11</position>
+            <position>10</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-05 12:07:49</sys_created_on>
-            <sys_id>783011d0dbc9e340f87bfe9b0c961945</sys_id>
+            <sys_created_on>2018-10-06 14:11:36</sys_created_on>
+            <sys_id>3f16b2a4dbc52740f87bfe9b0c961962</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Theft and Loss" display_value="Theft and Loss" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">ef10199bdb346340f87bfe9b0c961918</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-05 12:07:49</sys_updated_on>
+            <sys_updated_on>2018-10-06 14:11:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_specify_remote_wipe_or_lock</element>
-            <position>12</position>
+            <position>11</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-05 12:07:49</sys_created_on>
-            <sys_id>f83011d0dbc9e340f87bfe9b0c961945</sys_id>
+            <sys_created_on>2018-10-06 14:11:36</sys_created_on>
+            <sys_id>bf16b2a4dbc52740f87bfe9b0c961962</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Theft and Loss" display_value="Theft and Loss" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">ef10199bdb346340f87bfe9b0c961918</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-05 12:07:49</sys_updated_on>
+            <sys_updated_on>2018-10-06 14:11:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_identifiable_pmgs</element>
-            <position>13</position>
+            <position>12</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-05 12:07:49</sys_created_on>
-            <sys_id>7c3011d0dbc9e340f87bfe9b0c961945</sys_id>
+            <sys_created_on>2018-10-06 14:11:36</sys_created_on>
+            <sys_id>3316b2a4dbc52740f87bfe9b0c961963</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Theft and Loss" display_value="Theft and Loss" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">ef10199bdb346340f87bfe9b0c961918</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-05 12:07:49</sys_updated_on>
+            <sys_updated_on>2018-10-06 14:11:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_other_material_lost</element>
-            <position>14</position>
+            <position>13</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-05 12:07:49</sys_created_on>
-            <sys_id>fc3011d0dbc9e340f87bfe9b0c961945</sys_id>
+            <sys_created_on>2018-10-06 14:11:36</sys_created_on>
+            <sys_id>b316b2a4dbc52740f87bfe9b0c961963</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Theft and Loss" display_value="Theft and Loss" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">ef10199bdb346340f87bfe9b0c961918</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-05 12:07:49</sys_updated_on>
+            <sys_updated_on>2018-10-06 14:11:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_specify_other_material_lost</element>
-            <position>15</position>
+            <position>14</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-05 12:07:49</sys_created_on>
-            <sys_id>703011d0dbc9e340f87bfe9b0c961946</sys_id>
+            <sys_created_on>2018-10-06 14:11:36</sys_created_on>
+            <sys_id>3716b2a4dbc52740f87bfe9b0c961963</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Theft and Loss" display_value="Theft and Loss" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">ef10199bdb346340f87bfe9b0c961918</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-05 12:07:49</sys_updated_on>
+            <sys_updated_on>2018-10-06 14:11:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_other_lost_content</element>
-            <position>16</position>
+            <position>15</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-05 12:07:49</sys_created_on>
-            <sys_id>f03011d0dbc9e340f87bfe9b0c961946</sys_id>
+            <sys_created_on>2018-10-06 14:11:36</sys_created_on>
+            <sys_id>b716b2a4dbc52740f87bfe9b0c961963</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Theft and Loss" display_value="Theft and Loss" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">ef10199bdb346340f87bfe9b0c961918</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-05 12:07:49</sys_updated_on>
+            <sys_updated_on>2018-10-06 14:11:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

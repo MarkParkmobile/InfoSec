@@ -5,209 +5,223 @@
             <element>u_tech_org_measues</element>
             <position>0</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-03 20:34:08</sys_created_on>
-            <sys_id>16e0307fdbb4a340f87bfe9b0c961946</sys_id>
+            <sys_created_on>2018-10-06 15:07:37</sys_created_on>
+            <sys_id>10f203acdbc52740f87bfe9b0c961968</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Follow up actions" display_value="Follow up actions" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">fd12e91bdb746340f87bfe9b0c96193c</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-03 20:34:08</sys_updated_on>
+            <sys_updated_on>2018-10-06 15:07:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_other_tech_org_measures</element>
+            <position>1</position>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-06 15:07:37</sys_created_on>
+            <sys_id>90f203acdbc52740f87bfe9b0c961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Follow up actions" display_value="Follow up actions" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">fd12e91bdb746340f87bfe9b0c96193c</sys_ui_section>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-06 15:07:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_when_will_notify_all_people</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-03 20:34:08</sys_created_on>
-            <sys_id>96e0307fdbb4a340f87bfe9b0c961946</sys_id>
+            <sys_created_on>2018-10-06 15:07:37</sys_created_on>
+            <sys_id>14f203acdbc52740f87bfe9b0c961968</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Follow up actions" display_value="Follow up actions" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">fd12e91bdb746340f87bfe9b0c96193c</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-03 20:34:08</sys_updated_on>
+            <sys_updated_on>2018-10-06 15:07:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_when_did_notify_all_people</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-03 20:34:08</sys_created_on>
-            <sys_id>1ae0307fdbb4a340f87bfe9b0c961946</sys_id>
+            <sys_created_on>2018-10-06 15:07:37</sys_created_on>
+            <sys_id>94f203acdbc52740f87bfe9b0c961968</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Follow up actions" display_value="Follow up actions" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">fd12e91bdb746340f87bfe9b0c96193c</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-03 20:34:08</sys_updated_on>
+            <sys_updated_on>2018-10-06 15:07:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_content_notification</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-03 20:34:08</sys_created_on>
-            <sys_id>9ae0307fdbb4a340f87bfe9b0c961946</sys_id>
+            <sys_created_on>2018-10-06 15:07:37</sys_created_on>
+            <sys_id>18f203acdbc52740f87bfe9b0c961968</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Follow up actions" display_value="Follow up actions" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">fd12e91bdb746340f87bfe9b0c96193c</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-03 20:34:08</sys_updated_on>
+            <sys_updated_on>2018-10-06 15:07:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_number_notief_people</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-03 20:34:08</sys_created_on>
-            <sys_id>1ee0307fdbb4a340f87bfe9b0c961946</sys_id>
+            <sys_created_on>2018-10-06 15:07:37</sys_created_on>
+            <sys_id>98f203acdbc52740f87bfe9b0c961968</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Follow up actions" display_value="Follow up actions" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">fd12e91bdb746340f87bfe9b0c96193c</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-03 20:34:08</sys_updated_on>
+            <sys_updated_on>2018-10-06 15:07:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_communication_measures</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-03 20:34:08</sys_created_on>
-            <sys_id>9ee0307fdbb4a340f87bfe9b0c961946</sys_id>
+            <sys_created_on>2018-10-06 15:07:37</sys_created_on>
+            <sys_id>1cf203acdbc52740f87bfe9b0c961968</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Follow up actions" display_value="Follow up actions" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">fd12e91bdb746340f87bfe9b0c96193c</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-03 20:34:08</sys_updated_on>
+            <sys_updated_on>2018-10-06 15:07:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_other_communication_measures</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-03 20:34:08</sys_created_on>
-            <sys_id>12e0307fdbb4a340f87bfe9b0c961947</sys_id>
+            <sys_created_on>2018-10-06 15:07:37</sys_created_on>
+            <sys_id>9cf203acdbc52740f87bfe9b0c961968</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Follow up actions" display_value="Follow up actions" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">fd12e91bdb746340f87bfe9b0c96193c</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-03 20:34:08</sys_updated_on>
+            <sys_updated_on>2018-10-06 15:07:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_grounds_decision</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-03 20:34:08</sys_created_on>
-            <sys_id>92e0307fdbb4a340f87bfe9b0c961947</sys_id>
+            <sys_created_on>2018-10-06 15:07:37</sys_created_on>
+            <sys_id>10f203acdbc52740f87bfe9b0c961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Follow up actions" display_value="Follow up actions" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">fd12e91bdb746340f87bfe9b0c96193c</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-03 20:34:08</sys_updated_on>
+            <sys_updated_on>2018-10-06 15:07:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_grounds_decision_clarification</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-03 20:34:08</sys_created_on>
-            <sys_id>16e0307fdbb4a340f87bfe9b0c961947</sys_id>
+            <sys_created_on>2018-10-06 15:07:37</sys_created_on>
+            <sys_id>90f203acdbc52740f87bfe9b0c961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Follow up actions" display_value="Follow up actions" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">fd12e91bdb746340f87bfe9b0c96193c</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-03 20:34:08</sys_updated_on>
+            <sys_updated_on>2018-10-06 15:07:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_technical_measures</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-03 20:34:08</sys_created_on>
-            <sys_id>96e0307fdbb4a340f87bfe9b0c961947</sys_id>
+            <sys_created_on>2018-10-06 15:07:37</sys_created_on>
+            <sys_id>14f203acdbc52740f87bfe9b0c961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Follow up actions" display_value="Follow up actions" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">fd12e91bdb746340f87bfe9b0c96193c</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-03 20:34:08</sys_updated_on>
+            <sys_updated_on>2018-10-06 15:07:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_corrective_actions</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-03 20:34:08</sys_created_on>
-            <sys_id>1ae0307fdbb4a340f87bfe9b0c961947</sys_id>
+            <sys_created_on>2018-10-06 15:07:37</sys_created_on>
+            <sys_id>94f203acdbc52740f87bfe9b0c961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Follow up actions" display_value="Follow up actions" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">fd12e91bdb746340f87bfe9b0c96193c</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-03 20:34:08</sys_updated_on>
+            <sys_updated_on>2018-10-06 15:07:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_international_impact</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-03 20:34:08</sys_created_on>
-            <sys_id>9ae0307fdbb4a340f87bfe9b0c961947</sys_id>
+            <sys_created_on>2018-10-06 15:07:37</sys_created_on>
+            <sys_id>18f203acdbc52740f87bfe9b0c961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Follow up actions" display_value="Follow up actions" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">fd12e91bdb746340f87bfe9b0c96193c</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-03 20:34:08</sys_updated_on>
+            <sys_updated_on>2018-10-06 15:07:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_who_internatial_impacted</element>
-            <position>12</position>
+            <position>13</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-03 20:34:08</sys_created_on>
-            <sys_id>1ee0307fdbb4a340f87bfe9b0c961947</sys_id>
+            <sys_created_on>2018-10-06 15:07:37</sys_created_on>
+            <sys_id>98f203acdbc52740f87bfe9b0c961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Follow up actions" display_value="Follow up actions" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">fd12e91bdb746340f87bfe9b0c96193c</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-03 20:34:08</sys_updated_on>
+            <sys_updated_on>2018-10-06 15:07:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_international_authorities_involved</element>
-            <position>13</position>
+            <position>14</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-03 20:34:08</sys_created_on>
-            <sys_id>9ee0307fdbb4a340f87bfe9b0c961947</sys_id>
+            <sys_created_on>2018-10-06 15:07:37</sys_created_on>
+            <sys_id>1cf203acdbc52740f87bfe9b0c961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Follow up actions" display_value="Follow up actions" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">fd12e91bdb746340f87bfe9b0c96193c</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-03 20:34:08</sys_updated_on>
+            <sys_updated_on>2018-10-06 15:07:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_which_international_authorities_involved</element>
-            <position>14</position>
+            <position>15</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-03 20:34:08</sys_created_on>
-            <sys_id>12e0307fdbb4a340f87bfe9b0c961948</sys_id>
+            <sys_created_on>2018-10-06 15:07:37</sys_created_on>
+            <sys_id>9cf203acdbc52740f87bfe9b0c961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Follow up actions" display_value="Follow up actions" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">fd12e91bdb746340f87bfe9b0c96193c</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-03 20:34:08</sys_updated_on>
+            <sys_updated_on>2018-10-06 15:07:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
