@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_glide_list_authorities_involved" table="x_parg2_infosec_infosec_incident" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_glide_list_authorities_involved</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Data protection officer</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence>0</sequence>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 14:23:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44fb8155db8d6740f87bfe9b0c9619f2</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 14:41:05</sys_updated_on>
+            <value>Data protection officer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_glide_list_authorities_involved</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Financial regulator</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence>1</sequence>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 14:23:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50eb8915db8d6740f87bfe9b0c961976</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 14:41:05</sys_updated_on>
+            <value>Financial regulator</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_glide_list_authorities_involved</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Fire department</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence>2</sequence>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 14:22:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>06cb4d15db8d6740f87bfe9b0c9619c2</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 14:41:05</sys_updated_on>
+            <value>Fire department</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_glide_list_authorities_involved</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Medical services</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence>3</sequence>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 14:22:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64dbcd15db8d6740f87bfe9b0c96194b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 14:41:05</sys_updated_on>
+            <value>Medical services</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_glide_list_authorities_involved</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Not Needed</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence>4</sequence>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 14:24:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2c2c8155db8d6740f87bfe9b0c961979</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 14:41:05</sys_updated_on>
+            <value>Not Needed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_glide_list_authorities_involved</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Other (specify)</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence>5</sequence>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 14:23:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>501cc155db8d6740f87bfe9b0c9619f0</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 14:41:05</sys_updated_on>
+            <value>Other (specify)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_glide_list_authorities_involved</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Police department</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence>6</sequence>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 14:22:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cabb4d15db8d6740f87bfe9b0c9619c1</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 14:41:05</sys_updated_on>
+            <value>Police department</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_glide_list_authorities_involved</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Supervisory authorities</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence>7</sequence>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 14:23:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>77fb8155db8d6740f87bfe9b0c96191e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 14:41:05</sys_updated_on>
+            <value>Supervisory authorities</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_glide_list_authorities_involved</element>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 14:22:26</sys_created_on>
+            <sys_id>4acb4115db8d6740f87bfe9b0c9619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_glide_list_authorities_involved</sys_name>
+            <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="InfoSec">3a1210cbdb382340f87bfe9b0c9619e8</sys_scope>
+            <sys_update_name>sys_choice_x_parg2_infosec_infosec_incident_u_glide_list_authorities_involved</sys_update_name>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 14:22:26</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

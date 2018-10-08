@@ -64,6 +64,7 @@
         <element label="How was the cause determined?" mandatory="true" max_length="4000" name="u_determination_cause" type="string"/>
         <element label="Experience notification all people concerned" max_length="4000" name="u_experience_notification_all_people_concerned" type="string"/>
         <element label="Why did it happen?" mandatory="true" max_length="4000" name="u_explaination" type="string"/>
+        <element attributes="start_locked=false, edge_encryption_enabled=true;" label="Authorities Involved, if any" mandatory="true" max_length="1024" name="u_glide_list_authorities_involved" reference="x_parg2_infosec_infosec_authorities" type="glide_list" use_dynamic_default="true"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Based on what ground(s) did you decide not to notify to all people" max_length="40" name="u_grounds_decision" type="string">
             <choice>
                 <element label="The technical and/or organizational measures provide sufficient protection." sequence="0" value="The technical and/or organizational measures provide sufficient protection."/>

@@ -5,27 +5,41 @@
             <element>u_authorities_involved_if_any</element>
             <position>0</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-03 10:53:23</sys_created_on>
-            <sys_id>cffb62abdb70a340f87bfe9b0c9619bd</sys_id>
+            <sys_created_on>2018-10-08 14:41:05</sys_created_on>
+            <sys_id>1f001919db8d6740f87bfe9b0c9619c1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Authorities Involved" display_value="Authorities Involved" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">e710199bdb346340f87bfe9b0c961918</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-03 10:53:23</sys_updated_on>
+            <sys_updated_on>2018-10-08 14:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_list_authorities_involved</element>
+            <position>1</position>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 14:41:05</sys_created_on>
+            <sys_id>9f001919db8d6740f87bfe9b0c9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Authorities Involved" display_value="Authorities Involved" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">e710199bdb346340f87bfe9b0c961918</sys_ui_section>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 14:41:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_other_authorities</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-03 10:53:23</sys_created_on>
-            <sys_id>43fb62abdb70a340f87bfe9b0c9619be</sys_id>
+            <sys_created_on>2018-10-08 14:41:05</sys_created_on>
+            <sys_id>13001919db8d6740f87bfe9b0c9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Authorities Involved" display_value="Authorities Involved" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">e710199bdb346340f87bfe9b0c961918</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-03 10:53:23</sys_updated_on>
+            <sys_updated_on>2018-10-08 14:41:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

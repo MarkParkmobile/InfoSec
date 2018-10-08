@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="INSERT_OR_UPDATE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_parg2_infosec_infosec_authorities</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>mark.zijlstra</sys_created_by>
+        <sys_created_on>2018-10-08 14:09:04</sys_created_on>
+        <sys_id>cab8cd91db8d6740f87bfe9b0c961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_parg2_infosec_infosec_authorities</sys_name>
+        <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="InfoSec">3a1210cbdb382340f87bfe9b0c9619e8</sys_scope>
+        <sys_update_name>ua_table_licensing_config_cab8cd91db8d6740f87bfe9b0c961954</sys_update_name>
+        <sys_updated_by>mark.zijlstra</sys_updated_by>
+        <sys_updated_on>2018-10-08 14:09:04</sys_updated_on>
+    </ua_table_licensing_config>
+</record_update>
