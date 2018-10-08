@@ -3,15 +3,14 @@
     <element audit="true" extends="task" label="InfoSec Incident" max_length="40" name="x_parg2_infosec_infosec_incident" sizeclass="1" type="collection">
         <element choice="1" label="Risk type" mandatory="true" max_length="40" name="risk_type" type="integer">
             <choice>
-                <element label="availability" sequence="0" value="2"/>
                 <element label="Confidentiality" sequence="1" value="1"/>
-                <element label="Intergrity" sequence="2" value="3"/>
+                <element label="Integrity" sequence="2" value="3"/>
             </choice>
         </element>
-        <element label="Other parties impacted, if any" max_length="40" name="u_3rd_parties_impacted" type="boolean"/>
+        <element label="Other 3rd parties impacted, if any" max_length="40" name="u_3rd_parties_impacted" type="boolean"/>
         <element label="Were there any violations of client, vendor or other 3rd party contracts?" mandatory="true" max_length="4000" name="u_3rd_party_violations" type="string"/>
         <element choice_field="scrum_role" choice_table="sys_user_grmember" dependent="Manager" dependent_on_field="Manager" label="Accountable manager" max_length="32" name="u_accountable_management_contact" type="string" use_dependent_field="true"/>
-        <element attributes="edge_encryption_enabled=true" label="Affected Application/System/Environment" max_length="40" name="u_affected" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Affected Application/System/Environment" max_length="40" name="u_affected" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Specify the affected data per client" max_length="4000" name="u_affected_data_per_client" type="string"/>
         <element choice="1" label="Authorities involved, if any." mandatory="true" max_length="40" name="u_authorities_involved_if_any" type="integer">
             <choice>
@@ -58,8 +57,8 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Describe the data as detailed as possible" max_length="4000" name="u_describe_data" type="string"/>
-        <element label="Details asked penatlies by customer" max_length="4000" name="u_details_customer_asked_penalties" type="string"/>
-        <element label="Details official complain by customers" max_length="4000" name="u_details_customer_official_complain" type="string"/>
+        <element label="Details asked penalties by customer" max_length="4000" name="u_details_customer_asked_penalties" type="string"/>
+        <element label="Details official complaint by customers" max_length="4000" name="u_details_customer_official_complain" type="string"/>
         <element label="Details other action by customer" max_length="4000" name="u_detail_customer_other_action" type="string"/>
         <element label="Detection data breach" max_length="4000" name="u_detection_data_breach" type="string"/>
         <element label="How was the cause determined?" mandatory="true" max_length="4000" name="u_determination_cause" type="string"/>
@@ -67,9 +66,8 @@
         <element label="Why did it happen?" mandatory="true" max_length="4000" name="u_explaination" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Based on what ground(s) did you decide not to notify to all people" max_length="40" name="u_grounds_decision" type="string">
             <choice>
-                <element label="The technical and/or organizational measures provide sufficient protection to omit a notification to" sequence="0" value="the technical and/or organizational measures provide sufficient protection to omit a notification to all people concerned"/>
-                <element label="It is highly improbable that the data breach will have undesirable consequences for the person's p" sequence="1" value="it is highly improbable that the data breach will have undesirable consequestnces for the person's privacy"/>
-                <element label="I have crucial reasons to leave out the notfication to all people concerned, namely" sequence="2" value="I have crucial reasons to leave out the notfication to all people concerned"/>
+                <element label="The technical and/or organizational measures provide sufficient protection." sequence="0" value="The technical and/or organizational measures provide sufficient protection."/>
+                <element label="It is unlikely that the data breach will have negative consequences for the person's privacy." sequence="1" value="It is unlikely that the data breach will have negative consequences for the person's privacy."/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Please clarify the grounds of your decision" max_length="4000" name="u_grounds_decision_clarification" type="string"/>
@@ -93,8 +91,8 @@
         <element label="Impacted 3rd Parties" max_length="4000" name="u_impacted_3rd_parties" type="string"/>
         <element label="Impacted users" max_length="4000" name="u_impacted_users" type="string"/>
         <element label="Impacted clients or customers if any" mandatory="true" max_length="4000" name="u_impaxted_client_customers" type="string"/>
-        <element label="Incident date and time" max_length="40" name="u_incident_date_time" read_only="true" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Incident type" max_length="40" name="u_incident_type" read_only="true" type="string">
+        <element label="Incident date and time" max_length="40" name="u_incident_date_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Incident type" max_length="40" name="u_incident_type" type="string">
             <choice>
                 <element label="Data Breach" sequence="0" value="data breach"/>
                 <element label="Attrition" sequence="1" value="attrition"/>
@@ -131,14 +129,14 @@
         </element>
         <element label="Were there any legal or regulatory violations?" mandatory="true" max_length="4000" name="u_legal_violation" type="string"/>
         <element label="Lessons Learned" mandatory="true" max_length="4000" name="u_lessons_learned" type="string"/>
-        <element attributes="tree_picker=true" dependent="company" dependent_on_field="company" label="Location of where the incident ocurred" max_length="80" name="u_location" read_only="true" type="string" use_dependent_field="true"/>
+        <element attributes="tree_picker=true" dependent="company" dependent_on_field="company" label="Location of where the incident ocurred" max_length="80" name="u_location" type="string" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" label="Table of lost documents" max_length="4000" name="u_lost_documents" type="string"/>
         <element label="Incident management contacts" mandatory="true" max_length="4000" name="u_management_contacts" type="string"/>
         <element label="Notification all people concerned" max_length="4000" name="u_notification_all_people_concerned" type="string"/>
         <element label="Notification Supervisory Authority" max_length="4000" name="u_notification_supervisory_authority" type="string"/>
         <element label="Notification  third parties" max_length="4000" name="u_notification_third_parties" type="string"/>
         <element label="How many people will you notify?" max_length="40" name="u_number_notief_people" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Origin of the incident" max_length="40" name="u_origin_incident" read_only="true" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Origin of the incident" max_length="40" name="u_origin_incident" type="string">
             <choice>
                 <element label="Internal Parkmobile" sequence="0" value="internal parkmobile"/>
                 <element label="External Parkmobile" sequence="1" value="external parkmobile"/>
@@ -147,7 +145,7 @@
         <element attributes="edge_encryption_enabled=true" label="Other Authoritoes" max_length="4000" name="u_other_authorities" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="What other comm. measure(s) will you apply to notify all people concerned?" max_length="4000" name="u_other_communication_measures" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Anything relevant, uncovered in previous sections" max_length="4000" name="u_other_details" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Other locations" max_length="40" name="u_other_location" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other locations" max_length="40" name="u_other_location" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Specify any other contents lost" max_length="4000" name="u_other_lost_content" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Specify other lost material" max_length="4000" name="u_other_lost_material" type="string"/>
         <element choice="1" label="Other material lost" max_length="40" name="u_other_material_lost" type="integer">
@@ -167,7 +165,7 @@
                 <element label="Not applicable" sequence="2" value="not applicable"/>
             </choice>
         </element>
-        <element label="Is personal data involved?" max_length="40" name="u_personal_data_involved" read_only="true" type="boolean"/>
+        <element label="Is personal data involved?" max_length="40" name="u_personal_data_involved" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="What is the telephone number we can reach you on?" max_length="40" name="u_phone_number_caller" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Describe physical protection of the device" max_length="4000" name="u_physical_protection" type="string"/>
         <element label="Preventive actions" mandatory="true" max_length="4000" name="u_preventive_actions" type="string"/>

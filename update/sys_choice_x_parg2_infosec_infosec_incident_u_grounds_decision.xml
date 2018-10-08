@@ -5,7 +5,7 @@
             <dependent_value/>
             <element>u_grounds_decision</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>The technical and/or organizational measures provide sufficient protection to omit a notification to</label>
             <language>en</language>
             <name>x_parg2_infosec_infosec_incident</name>
@@ -15,9 +15,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>94226d1bdb746340f87bfe9b0c961941</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-02 10:52:13</sys_updated_on>
+            <sys_updated_on>2018-10-08 13:25:45</sys_updated_on>
             <value>the technical and/or organizational measures provide sufficient protection to omit a notification to all people concerned</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -25,6 +25,25 @@
             <element>u_grounds_decision</element>
             <hint/>
             <inactive>false</inactive>
+            <label>The technical and/or organizational measures provide sufficient protection.</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence>0</sequence>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 13:25:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7ce7c1ddb4d6740f87bfe9b0c9619cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 13:25:45</sys_updated_on>
+            <value>The technical and/or organizational measures provide sufficient protection.</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_grounds_decision</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>It is highly improbable that the data breach will have undesirable consequences for the person's p</label>
             <language>en</language>
             <name>x_parg2_infosec_infosec_incident</name>
@@ -34,9 +53,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>18226d1bdb746340f87bfe9b0c961943</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-06 15:07:36</sys_updated_on>
+            <sys_updated_on>2018-10-08 13:25:45</sys_updated_on>
             <value>it is highly improbable that the data breach will have undesirable consequestnces for the person's privacy</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -44,6 +63,25 @@
             <element>u_grounds_decision</element>
             <hint/>
             <inactive>false</inactive>
+            <label>It is unlikely that the data breach will have negative consequences for the person's privacy.</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence>1</sequence>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 13:25:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67ce7c1ddb4d6740f87bfe9b0c9619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 13:25:45</sys_updated_on>
+            <value>It is unlikely that the data breach will have negative consequences for the person's privacy.</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_grounds_decision</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>I have crucial reasons to leave out the notfication to all people concerned, namely</label>
             <language>en</language>
             <name>x_parg2_infosec_infosec_incident</name>
@@ -53,9 +91,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>d4226d1bdb746340f87bfe9b0c961945</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-06 15:07:36</sys_updated_on>
+            <sys_updated_on>2018-10-08 13:25:45</sys_updated_on>
             <value>I have crucial reasons to leave out the notfication to all people concerned</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">

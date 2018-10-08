@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="u_details_customer_official_complain" label="Details official complain by customers" language="en" table="x_parg2_infosec_infosec_incident">
+    <sys_documentation element="u_details_customer_official_complain" label="Details official complaint by customers" language="en" table="x_parg2_infosec_infosec_incident">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_details_customer_official_complain</element>
             <help/>
             <hint/>
-            <label>Details official complain by customers</label>
+            <label>Details official complaint by customers</label>
             <language>en</language>
             <name>x_parg2_infosec_infosec_incident</name>
-            <plural>Details official complain by customers</plural>
+            <plural>Details official complaint by customers</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>mark.zijlstra</sys_created_by>
             <sys_created_on>2018-10-01 17:35:28</sys_created_on>
             <sys_id>edd43dcbdb3c2340f87bfe9b0c96191c</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Details official complain by customers</sys_name>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Details official complaint by customers</sys_name>
             <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
             <sys_policy/>
             <sys_scope display_value="InfoSec">3a1210cbdb382340f87bfe9b0c9619e8</sys_scope>
             <sys_update_name>sys_documentation_x_parg2_infosec_infosec_incident_u_details_customer_official_complain_en</sys_update_name>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-02 11:32:34</sys_updated_on>
+            <sys_updated_on>2018-10-08 13:25:43</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
