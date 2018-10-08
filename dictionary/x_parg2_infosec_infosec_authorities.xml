@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element label="infoSec authorities" max_length="40" name="x_parg2_infosec_infosec_authorities" type="collection">
-        <element label="Name" max_length="40" name="u_name" type="string"/>
-        <element label="Value" max_length="40" name="u_value" type="integer"/>
-    </element>
-</database>
