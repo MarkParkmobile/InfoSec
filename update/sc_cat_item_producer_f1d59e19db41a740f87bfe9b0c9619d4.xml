@@ -28,7 +28,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Information Security Incident</name>
+        <name>Copy of Information Security Incident</name>
         <no_cart>false</no_cart>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
@@ -39,7 +39,7 @@
         <order>0</order>
         <ordered_item_link/>
         <picture/>
-        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=c0c79a9fdbf46340f87bfe9b0c961956&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=f1d59e19db41a740f87bfe9b0c9619d4&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
@@ -49,21 +49,21 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <script/>
-        <short_description>Create an information security Incident</short_description>
+        <short_description>Copy of Create an information security Incident</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>mark.zijlstra</sys_created_by>
-        <sys_created_on>2018-10-02 14:47:25</sys_created_on>
-        <sys_id>c0c79a9fdbf46340f87bfe9b0c961956</sys_id>
-        <sys_mod_count>12</sys_mod_count>
-        <sys_name>Information Security Incident</sys_name>
+        <sys_created_on>2018-10-08 19:46:00</sys_created_on>
+        <sys_id>f1d59e19db41a740f87bfe9b0c9619d4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Copy of Information Security Incident</sys_name>
         <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
         <sys_policy/>
         <sys_scope display_value="InfoSec">3a1210cbdb382340f87bfe9b0c9619e8</sys_scope>
-        <sys_update_name>sc_cat_item_producer_c0c79a9fdbf46340f87bfe9b0c961956</sys_update_name>
+        <sys_update_name>sc_cat_item_producer_f1d59e19db41a740f87bfe9b0c9619d4</sys_update_name>
         <sys_updated_by>mark.zijlstra</sys_updated_by>
-        <sys_updated_on>2018-10-08 19:44:37</sys_updated_on>
+        <sys_updated_on>2018-10-08 19:46:03</sys_updated_on>
         <table_name>x_parg2_infosec_infosec_incident</table_name>
         <template/>
         <type>item</type>
@@ -76,22 +76,22 @@
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item_producer>
-    <sys_translated_text action="delete_multiple" query="documentkey=c0c79a9fdbf46340f87bfe9b0c961956"/>
-    <fx_price action="delete_multiple" query="id=c0c79a9fdbf46340f87bfe9b0c961956"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=f1d59e19db41a740f87bfe9b0c9619d4"/>
+    <fx_price action="delete_multiple" query="id=f1d59e19db41a740f87bfe9b0c9619d4"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="EUR">EUR</currency>
         <field>price</field>
-        <id>c0c79a9fdbf46340f87bfe9b0c961956</id>
+        <id>f1d59e19db41a740f87bfe9b0c9619d4</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>mark.zijlstra</sys_created_by>
-        <sys_created_on>2018-10-02 14:47:25</sys_created_on>
-        <sys_id>29f79a9fdbf46340f87bfe9b0c961978</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2018-10-08 19:46:00</sys_created_on>
+        <sys_id>39d59e19db41a740f87bfe9b0c9619d5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>mark.zijlstra</sys_updated_by>
-        <sys_updated_on>2018-10-02 14:47:25</sys_updated_on>
+        <sys_updated_on>2018-10-08 19:46:03</sys_updated_on>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
@@ -99,16 +99,16 @@
         <amount>0</amount>
         <currency display_value="EUR">EUR</currency>
         <field>recurring_price</field>
-        <id>c0c79a9fdbf46340f87bfe9b0c961956</id>
+        <id>f1d59e19db41a740f87bfe9b0c9619d4</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>mark.zijlstra</sys_created_by>
-        <sys_created_on>2018-10-02 14:47:25</sys_created_on>
-        <sys_id>e9f79a9fdbf46340f87bfe9b0c961979</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2018-10-08 19:46:00</sys_created_on>
+        <sys_id>7dd59e19db41a740f87bfe9b0c9619d6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>mark.zijlstra</sys_updated_by>
-        <sys_updated_on>2018-10-02 14:47:25</sys_updated_on>
+        <sys_updated_on>2018-10-08 19:46:03</sys_updated_on>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>

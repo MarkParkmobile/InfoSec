@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="item_option_new">
+    <item_option_new action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Copy of Information Security Incident">f1d59e19db41a740f87bfe9b0c9619d4</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <example_text/>
+        <field>u_incident_type</field>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text>• Data Breach: Security incident in which sensitive, protected or confidential data (financial information such as credit card or bank details, Personally identifiable information (PII), trade secrets of corporations or intellectual property) is copied, transmitted, viewed, stolen or used by an individual unauthorized to do so. &#13;
+• Attrition: An attack that employs brute force methods to compromise, degrade, or destroy systems, networks, or services such as a DDoS attack. &#13;
+• Web attacks: An attack executed from a website or web-based application. &#13;
+• Email attacks: An attack executed via an email message or attachment. &#13;
+• Improper Usage: Any incident resulting from a violation of Parkmobile's acceptable usage policies by an authorized user, excluding the above categories. &#13;
+• Loss or Theft of Equipment: The loss or theft of a computing device or media used by the organization, such as a laptop or smartphone. &#13;
+• Outage: An unplanned interruption to an IT Service.&#13;
+• Other: An attack or event that does not fit into any of the other categories.&#13;
+</help_text>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <mandatory>true</mandatory>
+        <map_to_field>true</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>u_incident_type</name>
+        <order>800</order>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <question_text>Incident type</question_text>
+        <read_roles/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table>x_parg2_infosec_infosec_incident</record_producer_table>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>mark.zijlstra</sys_created_by>
+        <sys_created_on>2018-10-08 19:46:01</sys_created_on>
+        <sys_id>8ad55e59db41a740f87bfe9b0c9619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incident type</sys_name>
+        <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="InfoSec">3a1210cbdb382340f87bfe9b0c9619e8</sys_scope>
+        <sys_update_name>item_option_new_8ad55e59db41a740f87bfe9b0c9619c7</sys_update_name>
+        <sys_updated_by>mark.zijlstra</sys_updated_by>
+        <sys_updated_on>2018-10-08 19:46:01</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>5</type>
+        <ui_page/>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </item_option_new>
+    <sys_translated_text action="delete_multiple" query="documentkey=8ad55e59db41a740f87bfe9b0c9619c7"/>
+    <fx_price action="delete_multiple" query="id=8ad55e59db41a740f87bfe9b0c9619c7"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="EUR">EUR</currency>
+        <field>price_if_checked</field>
+        <id>8ad55e59db41a740f87bfe9b0c9619c7</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>mark.zijlstra</sys_created_by>
+        <sys_created_on>2018-10-08 19:46:01</sys_created_on>
+        <sys_id>82d55e59db41a740f87bfe9b0c9619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mark.zijlstra</sys_updated_by>
+        <sys_updated_on>2018-10-08 19:46:01</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="EUR">EUR</currency>
+        <field>rec_price_if_checked</field>
+        <id>8ad55e59db41a740f87bfe9b0c9619c7</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>mark.zijlstra</sys_created_by>
+        <sys_created_on>2018-10-08 19:46:01</sys_created_on>
+        <sys_id>4ad55e59db41a740f87bfe9b0c9619c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mark.zijlstra</sys_updated_by>
+        <sys_updated_on>2018-10-08 19:46:01</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>
