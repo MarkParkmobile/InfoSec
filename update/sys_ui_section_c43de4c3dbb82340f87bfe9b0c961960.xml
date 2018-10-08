@@ -5,13 +5,13 @@
             <element>u_phone_number_caller</element>
             <position>0</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-04 09:17:48</sys_created_on>
-            <sys_id>f4bf5373db7ca340f87bfe9b0c961931</sys_id>
+            <sys_created_on>2018-10-08 17:27:20</sys_created_on>
+            <sys_id>6216fd9ddbcd6740f87bfe9b0c961973</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General infosec incident" display_value="General infosec incident" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">c43de4c3dbb82340f87bfe9b0c961960</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-04 09:17:48</sys_updated_on>
+            <sys_updated_on>2018-10-08 17:27:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,27 +19,27 @@
             <element>u_affected</element>
             <position>1</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-04 09:17:48</sys_created_on>
-            <sys_id>7cbf5373db7ca340f87bfe9b0c961931</sys_id>
+            <sys_created_on>2018-10-08 17:27:20</sys_created_on>
+            <sys_id>e216fd9ddbcd6740f87bfe9b0c961973</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General infosec incident" display_value="General infosec incident" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">c43de4c3dbb82340f87bfe9b0c961960</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-04 09:17:48</sys_updated_on>
+            <sys_updated_on>2018-10-08 17:27:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_location</element>
+            <element>u_glide_location_of_incident</element>
             <position>2</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-04 09:17:48</sys_created_on>
-            <sys_id>fcbf5373db7ca340f87bfe9b0c961931</sys_id>
+            <sys_created_on>2018-10-08 17:27:20</sys_created_on>
+            <sys_id>6616fd9ddbcd6740f87bfe9b0c961973</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General infosec incident" display_value="General infosec incident" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">c43de4c3dbb82340f87bfe9b0c961960</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-04 09:17:48</sys_updated_on>
+            <sys_updated_on>2018-10-08 17:27:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>u_other_location</element>
             <position>3</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-04 09:17:48</sys_created_on>
-            <sys_id>70bf5373db7ca340f87bfe9b0c961932</sys_id>
+            <sys_created_on>2018-10-08 17:27:20</sys_created_on>
+            <sys_id>e616fd9ddbcd6740f87bfe9b0c961973</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General infosec incident" display_value="General infosec incident" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">c43de4c3dbb82340f87bfe9b0c961960</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-04 09:17:48</sys_updated_on>
+            <sys_updated_on>2018-10-08 17:27:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>u_origin_incident</element>
             <position>4</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-04 09:17:48</sys_created_on>
-            <sys_id>f0bf5373db7ca340f87bfe9b0c961932</sys_id>
+            <sys_created_on>2018-10-08 17:27:20</sys_created_on>
+            <sys_id>6a16fd9ddbcd6740f87bfe9b0c961973</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General infosec incident" display_value="General infosec incident" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">c43de4c3dbb82340f87bfe9b0c961960</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-04 09:17:48</sys_updated_on>
+            <sys_updated_on>2018-10-08 17:27:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>.split</element>
             <position>5</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-04 09:17:48</sys_created_on>
-            <sys_id>74bf5373db7ca340f87bfe9b0c961932</sys_id>
+            <sys_created_on>2018-10-08 17:27:20</sys_created_on>
+            <sys_id>ea16fd9ddbcd6740f87bfe9b0c961973</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General infosec incident" display_value="General infosec incident" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">c43de4c3dbb82340f87bfe9b0c961960</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-04 09:17:48</sys_updated_on>
+            <sys_updated_on>2018-10-08 17:27:20</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -89,13 +89,13 @@
             <element>u_personal_data_involved</element>
             <position>6</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-04 09:17:48</sys_created_on>
-            <sys_id>f4bf5373db7ca340f87bfe9b0c961932</sys_id>
+            <sys_created_on>2018-10-08 17:27:20</sys_created_on>
+            <sys_id>6e16fd9ddbcd6740f87bfe9b0c961973</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General infosec incident" display_value="General infosec incident" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">c43de4c3dbb82340f87bfe9b0c961960</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-04 09:17:48</sys_updated_on>
+            <sys_updated_on>2018-10-08 17:27:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -103,13 +103,13 @@
             <element>u_incident_date_time</element>
             <position>7</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-04 09:17:48</sys_created_on>
-            <sys_id>78bf5373db7ca340f87bfe9b0c961932</sys_id>
+            <sys_created_on>2018-10-08 17:27:20</sys_created_on>
+            <sys_id>ee16fd9ddbcd6740f87bfe9b0c961973</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General infosec incident" display_value="General infosec incident" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">c43de4c3dbb82340f87bfe9b0c961960</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-04 09:17:48</sys_updated_on>
+            <sys_updated_on>2018-10-08 17:27:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -117,13 +117,13 @@
             <element>u_incident_type</element>
             <position>8</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-04 09:17:48</sys_created_on>
-            <sys_id>f8bf5373db7ca340f87bfe9b0c961932</sys_id>
+            <sys_created_on>2018-10-08 17:27:20</sys_created_on>
+            <sys_id>6216fd9ddbcd6740f87bfe9b0c961974</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General infosec incident" display_value="General infosec incident" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">c43de4c3dbb82340f87bfe9b0c961960</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-04 09:17:48</sys_updated_on>
+            <sys_updated_on>2018-10-08 17:27:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -131,13 +131,13 @@
             <element>u_other_type</element>
             <position>9</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-04 09:17:48</sys_created_on>
-            <sys_id>7cbf5373db7ca340f87bfe9b0c961932</sys_id>
+            <sys_created_on>2018-10-08 17:27:20</sys_created_on>
+            <sys_id>e216fd9ddbcd6740f87bfe9b0c961974</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General infosec incident" display_value="General infosec incident" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">c43de4c3dbb82340f87bfe9b0c961960</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-04 09:17:48</sys_updated_on>
+            <sys_updated_on>2018-10-08 17:27:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -145,13 +145,13 @@
             <element>.end_split</element>
             <position>10</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-04 09:17:48</sys_created_on>
-            <sys_id>fcbf5373db7ca340f87bfe9b0c961932</sys_id>
+            <sys_created_on>2018-10-08 17:27:20</sys_created_on>
+            <sys_id>6616fd9ddbcd6740f87bfe9b0c961974</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General infosec incident" display_value="General infosec incident" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">c43de4c3dbb82340f87bfe9b0c961960</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-04 09:17:48</sys_updated_on>
+            <sys_updated_on>2018-10-08 17:27:20</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -159,13 +159,13 @@
             <element>short_description</element>
             <position>11</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-04 09:17:48</sys_created_on>
-            <sys_id>70bf5373db7ca340f87bfe9b0c961933</sys_id>
+            <sys_created_on>2018-10-08 17:27:20</sys_created_on>
+            <sys_id>e616fd9ddbcd6740f87bfe9b0c961974</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General infosec incident" display_value="General infosec incident" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">c43de4c3dbb82340f87bfe9b0c961960</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-04 09:17:48</sys_updated_on>
+            <sys_updated_on>2018-10-08 17:27:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -173,13 +173,13 @@
             <element>description</element>
             <position>12</position>
             <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-04 09:17:48</sys_created_on>
-            <sys_id>f0bf5373db7ca340f87bfe9b0c961933</sys_id>
+            <sys_created_on>2018-10-08 17:27:20</sys_created_on>
+            <sys_id>6a16fd9ddbcd6740f87bfe9b0c961974</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General infosec incident" display_value="General infosec incident" name="x_parg2_infosec_infosec_incident" sys_domain="global" view="Default view">c43de4c3dbb82340f87bfe9b0c961960</sys_ui_section>
             <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-04 09:17:48</sys_updated_on>
+            <sys_updated_on>2018-10-08 17:27:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

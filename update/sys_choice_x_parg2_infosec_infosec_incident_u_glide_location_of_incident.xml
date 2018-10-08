@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_glide_location_of_incident" table="x_parg2_infosec_infosec_incident" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_glide_location_of_incident</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>France, Versailles</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence/>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 17:32:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e517b9dddbcd6740f87bfe9b0c961996</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 17:56:50</sys_updated_on>
+            <value>France, Versailles</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_glide_location_of_incident</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Germany, Munchen</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence/>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 17:32:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e37bddddbcd6740f87bfe9b0c961923</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 17:57:23</sys_updated_on>
+            <value>Germany, Munchen</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_glide_location_of_incident</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Great Brittain, BAS</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence/>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 17:57:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7d7cf591db01a740f87bfe9b0c961904</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 17:57:39</sys_updated_on>
+            <value>Great Brittain, BAS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_glide_location_of_incident</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Great Brittain, LON</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence/>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 17:57:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c60df151db01a740f87bfe9b0c96197c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 17:57:56</sys_updated_on>
+            <value>Great Brittain, LON</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_glide_location_of_incident</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Great Brittain, LON CDE</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence/>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 17:58:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a1d7115db01a740f87bfe9b0c9619ea</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 17:58:16</sys_updated_on>
+            <value>Great Brittain, LON CDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_glide_location_of_incident</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Great Brittain, UXB</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence/>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 17:58:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>972d3115db01a740f87bfe9b0c96196a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 17:58:34</sys_updated_on>
+            <value>Great Brittain, UXB</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_glide_location_of_incident</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Great Brittain, UXB CDE</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence/>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 17:58:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>933d3115db01a740f87bfe9b0c961982</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 17:58:53</sys_updated_on>
+            <value>Great Brittain, UXB CDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_glide_location_of_incident</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Netherlands, Diemen</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence/>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 17:59:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b34df115db01a740f87bfe9b0c9619c6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 17:59:38</sys_updated_on>
+            <value>Netherlands, Diemen</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_glide_location_of_incident</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sequence/>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 17:59:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>877db115db01a740f87bfe9b0c961995</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 17:59:53</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_glide_location_of_incident</element>
+            <name>x_parg2_infosec_infosec_incident</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 17:32:14</sys_created_on>
+            <sys_id>5e37bddddbcd6740f87bfe9b0c961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_glide_location_of_incident</sys_name>
+            <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="InfoSec">3a1210cbdb382340f87bfe9b0c9619e8</sys_scope>
+            <sys_update_name>sys_choice_x_parg2_infosec_infosec_incident_u_glide_location_of_incident</sys_update_name>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 17:32:14</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

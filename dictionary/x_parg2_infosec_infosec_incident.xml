@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="InfoSec Incident" max_length="40" name="x_parg2_infosec_infosec_incident" sizeclass="1" type="collection">
+    <element audit="true" extends="task" label="InfoSec Incident" max_length="40" name="x_parg2_infosec_infosec_incident" sizeclass="3" type="collection">
         <element choice="1" label="Risk type" mandatory="true" max_length="40" name="risk_type" type="integer">
             <choice>
-                <element label="Confidentiality" sequence="1" value="1"/>
-                <element label="Integrity" sequence="2" value="3"/>
+                <element label="Availability" sequence="0" value="1"/>
+                <element label="Integrity" sequence="1" value="3"/>
+                <element label="Confidentiality" sequence="2" value="2"/>
             </choice>
         </element>
         <element label="Other 3rd parties impacted, if any" max_length="40" name="u_3rd_parties_impacted" type="boolean"/>
@@ -12,18 +13,6 @@
         <element choice_field="scrum_role" choice_table="sys_user_grmember" dependent="Manager" dependent_on_field="Manager" label="Accountable manager" max_length="32" name="u_accountable_management_contact" type="string" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" label="Affected Application/System/Environment" max_length="40" name="u_affected" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Specify the affected data per client" max_length="4000" name="u_affected_data_per_client" type="string"/>
-        <element choice="1" label="Authorities involved, if any." mandatory="true" max_length="40" name="u_authorities_involved_if_any" type="integer">
-            <choice>
-                <element label="Police" sequence="0" value="1"/>
-                <element label="Fire department" sequence="1" value="2"/>
-                <element label="Medical services" sequence="2" value="3"/>
-                <element label="Financial regulator" sequence="3" value="4"/>
-                <element label="Data protection officer" sequence="4" value="5"/>
-                <element label="Supervisory authorities" sequence="5" value="6"/>
-                <element label="Other" sequence="6" value="8"/>
-                <element label="Not needed" sequence="7" value="7"/>
-            </choice>
-        </element>
         <element label="What is/are the major cause(s)?" mandatory="true" max_length="4000" name="u_cause" type="string"/>
         <element label="Have impacted clients or customers been contacted to report/discuss the incident" max_length="40" name="u_client_customer_contact" type="boolean"/>
         <element choice="3" default="1" label="If client or customer data was on the device, have all been notified?" max_length="40" name="u_client_or_customer_affected_notified" type="integer">
@@ -64,7 +53,22 @@
         <element label="How was the cause determined?" mandatory="true" max_length="4000" name="u_determination_cause" type="string"/>
         <element label="Experience notification all people concerned" max_length="4000" name="u_experience_notification_all_people_concerned" type="string"/>
         <element label="Why did it happen?" mandatory="true" max_length="4000" name="u_explaination" type="string"/>
-        <element attributes="start_locked=false, edge_encryption_enabled=true;" label="Authorities Involved, if any" mandatory="true" max_length="1024" name="u_glide_list_authorities_involved" reference="x_parg2_infosec_infosec_authorities" type="glide_list" use_dynamic_default="true"/>
+        <element choice="1" label="Authorities Involved, if any" max_length="1024" name="u_glide_list_authorities_involved" type="glide_list">
+            <choice/>
+        </element>
+        <element attributes="start_locked=true, edge_encryption_enabled=true;" choice="1" label="Location of where the incident ocurred" max_length="1024" name="u_glide_location_of_incident" type="glide_list">
+            <choice>
+                <element label="France, Versailles" value="France, Versailles"/>
+                <element label="Germany, Munchen" value="Germany, Munchen"/>
+                <element label="Great Brittain, BAS" value="Great Brittain, BAS"/>
+                <element label="Great Brittain, LON" value="Great Brittain, LON"/>
+                <element label="Great Brittain, LON CDE" value="Great Brittain, LON CDE"/>
+                <element label="Great Brittain, UXB" value="Great Brittain, UXB"/>
+                <element label="Great Brittain, UXB CDE" value="Great Brittain, UXB CDE"/>
+                <element label="Netherlands, Diemen" value="Netherlands, Diemen"/>
+                <element label="Other" value="Other"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Based on what ground(s) did you decide not to notify to all people" max_length="40" name="u_grounds_decision" type="string">
             <choice>
                 <element label="The technical and/or organizational measures provide sufficient protection." sequence="0" value="The technical and/or organizational measures provide sufficient protection."/>
@@ -130,20 +134,19 @@
         </element>
         <element label="Were there any legal or regulatory violations?" mandatory="true" max_length="4000" name="u_legal_violation" type="string"/>
         <element label="Lessons Learned" mandatory="true" max_length="4000" name="u_lessons_learned" type="string"/>
-        <element attributes="tree_picker=true" dependent="company" dependent_on_field="company" label="Location of where the incident ocurred" max_length="80" name="u_location" type="string" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" label="Table of lost documents" max_length="4000" name="u_lost_documents" type="string"/>
         <element label="Incident management contacts" mandatory="true" max_length="4000" name="u_management_contacts" type="string"/>
         <element label="Notification all people concerned" max_length="4000" name="u_notification_all_people_concerned" type="string"/>
         <element label="Notification Supervisory Authority" max_length="4000" name="u_notification_supervisory_authority" type="string"/>
         <element label="Notification  third parties" max_length="4000" name="u_notification_third_parties" type="string"/>
         <element label="How many people will you notify?" max_length="40" name="u_number_notief_people" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Origin of the incident" max_length="40" name="u_origin_incident" type="string">
+        <element choice="1" label="Origin of the incident" max_length="40" name="u_origin_incident" type="string">
             <choice>
                 <element label="Internal Parkmobile" sequence="0" value="internal parkmobile"/>
                 <element label="External Parkmobile" sequence="1" value="external parkmobile"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Other Authoritoes" max_length="4000" name="u_other_authorities" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Authorities" max_length="4000" name="u_other_authorities" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="What other comm. measure(s) will you apply to notify all people concerned?" max_length="4000" name="u_other_communication_measures" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Anything relevant, uncovered in previous sections" max_length="4000" name="u_other_details" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Other locations" max_length="40" name="u_other_location" type="string"/>
@@ -178,13 +181,13 @@
                 <element label="Other" sequence="3" value="0"/>
             </choice>
         </element>
-        <element label="Sequence Events" mandatory="true" max_length="4000" name="u_sequence_events" type="string"/>
-        <element choice="1" label="Severity" mandatory="true" max_length="40" name="u_sevirty" type="integer">
+        <element label="Sequence of events" mandatory="true" max_length="4000" name="u_sequence_events" type="string"/>
+        <element choice="1" default="1" label="Severity" mandatory="true" max_length="40" name="u_sevirty" type="integer">
             <choice>
-                <element label="Critical" value="1"/>
-                <element label="High" value="2"/>
-                <element label="Low" value="4"/>
-                <element label="Medium" value="3"/>
+                <element label="Critical" sequence="0" value="1"/>
+                <element label="High" sequence="1" value="2"/>
+                <element label="Medium" sequence="2" value="3"/>
+                <element label="Low" sequence="3" value="4"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Specify encryption" max_length="4000" name="u_specify_encryption" type="string"/>
