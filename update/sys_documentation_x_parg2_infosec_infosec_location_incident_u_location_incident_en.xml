@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_location_incident" label="Location Incident" language="en" table="x_parg2_infosec_infosec_location_incident">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_location_incident</element>
+            <help/>
+            <hint/>
+            <label>Location Incident</label>
+            <language>en</language>
+            <name>x_parg2_infosec_infosec_location_incident</name>
+            <plural>Location Incidents</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>mark.zijlstra</sys_created_by>
+            <sys_created_on>2018-10-08 21:09:36</sys_created_on>
+            <sys_id>eef82255db81a740f87bfe9b0c96193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Location Incident</sys_name>
+            <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="InfoSec">3a1210cbdb382340f87bfe9b0c9619e8</sys_scope>
+            <sys_update_name>sys_documentation_x_parg2_infosec_infosec_location_incident_u_location_incident_en</sys_update_name>
+            <sys_updated_by>mark.zijlstra</sys_updated_by>
+            <sys_updated_on>2018-10-08 21:09:36</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
