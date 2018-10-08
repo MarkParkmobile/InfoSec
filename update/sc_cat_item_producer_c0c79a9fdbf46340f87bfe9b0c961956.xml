@@ -28,7 +28,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Create Information Security Incident</name>
+        <name>Information Security Incident</name>
         <no_cart>false</no_cart>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
@@ -49,21 +49,21 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <script/>
-        <short_description>Information security Incident</short_description>
+        <short_description>Create an information security Incident</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>mark.zijlstra</sys_created_by>
         <sys_created_on>2018-10-02 14:47:25</sys_created_on>
         <sys_id>c0c79a9fdbf46340f87bfe9b0c961956</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>Create Information Security Incident</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Information Security Incident</sys_name>
         <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
         <sys_policy/>
         <sys_scope display_value="InfoSec">3a1210cbdb382340f87bfe9b0c9619e8</sys_scope>
         <sys_update_name>sc_cat_item_producer_c0c79a9fdbf46340f87bfe9b0c961956</sys_update_name>
         <sys_updated_by>mark.zijlstra</sys_updated_by>
-        <sys_updated_on>2018-10-04 15:55:03</sys_updated_on>
+        <sys_updated_on>2018-10-08 18:40:57</sys_updated_on>
         <table_name>x_parg2_infosec_infosec_incident</table_name>
         <template/>
         <type>item</type>

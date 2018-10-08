@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="InfoSec Incident" max_length="40" name="x_parg2_infosec_infosec_incident" sizeclass="3" type="collection">
+    <element audit="true" extends="task" label="InfoSec Incident" max_length="40" name="x_parg2_infosec_infosec_incident" type="collection">
         <element choice="1" label="Risk type" mandatory="true" max_length="40" name="risk_type" type="integer">
             <choice>
                 <element label="Availability" sequence="0" value="1"/>
@@ -53,8 +53,17 @@
         <element label="How was the cause determined?" mandatory="true" max_length="4000" name="u_determination_cause" type="string"/>
         <element label="Experience notification all people concerned" max_length="4000" name="u_experience_notification_all_people_concerned" type="string"/>
         <element label="Why did it happen?" mandatory="true" max_length="4000" name="u_explaination" type="string"/>
-        <element choice="1" label="Authorities Involved, if any" max_length="1024" name="u_glide_list_authorities_involved" type="glide_list">
-            <choice/>
+        <element attributes="start_locked=false, edge_encryption_enabled=true;" choice="1" label="Authorities Involved, if any" max_length="1024" name="u_glide_list_authorities_involved" type="glide_list">
+            <choice>
+                <element label="Police department" sequence="1" value="Police department"/>
+                <element label="Fire department" sequence="2" value="Fire department"/>
+                <element label="Medical services" sequence="3" value="Medical services"/>
+                <element label="Financial regulator" sequence="4" value="Financial regulator"/>
+                <element label="Data protection officer" sequence="5" value="Data protection officer"/>
+                <element label="Supervisory authorities" sequence="6" value="Supervisory authorities"/>
+                <element label="Other (specify)" sequence="7" value="Other (specify)"/>
+                <element label="Not needed" sequence="8" value="Not needed"/>
+            </choice>
         </element>
         <element attributes="start_locked=true, edge_encryption_enabled=true;" choice="1" label="Location of where the incident ocurred" max_length="1024" name="u_glide_location_of_incident" type="glide_list">
             <choice>
@@ -173,7 +182,7 @@
         <element attributes="edge_encryption_enabled=true" label="What is the telephone number we can reach you on?" max_length="40" name="u_phone_number_caller" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Describe physical protection of the device" max_length="4000" name="u_physical_protection" type="string"/>
         <element label="Preventive actions" mandatory="true" max_length="4000" name="u_preventive_actions" type="string"/>
-        <element choice="1" label="Was a remote wipe, device lock performed? " max_length="40" name="u_remote_wipe_lock" type="integer">
+        <element choice="1" label="Was a remote wipe, device lock performed?" max_length="40" name="u_remote_wipe_lock" type="integer">
             <choice>
                 <element label="Remote wipe" sequence="0" value="3"/>
                 <element label="Remote lock" sequence="1" value="2"/>
@@ -193,7 +202,7 @@
         <element attributes="edge_encryption_enabled=true" label="Specify encryption" max_length="4000" name="u_specify_encryption" type="string"/>
         <element label="Specify other material lost" max_length="4000" name="u_specify_other_material_lost" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Specify remote wipe or lock" max_length="4000" name="u_specify_remote_wipeorlock" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Specify" max_length="4000" name="u_specify_remote_wipe_or_lock" type="string"/>
+        <element label="Specify" max_length="4000" name="u_specify_remote_wipe_or_lock" type="string"/>
         <element label="What actions are taken to correct or mitigate the incident?" mandatory="true" max_length="4000" name="u_taken_actions" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Technical measures" max_length="40" name="u_technical_measures" type="string">
             <choice>
