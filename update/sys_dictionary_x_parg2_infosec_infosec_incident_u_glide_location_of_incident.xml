@@ -4,9 +4,14 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>start_locked=true, edge_encryption_enabled=true;</attributes>
+        <attributes>start_locked=true,edge_encryption_enabled=true;</attributes>
         <audit>false</audit>
-        <calculation/>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
         <choice>1</choice>
         <choice_field/>
         <choice_table/>
@@ -36,7 +41,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_parg2_infosec_infosec_location_incident">x_parg2_infosec_infosec_location_incident</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -50,14 +55,14 @@
         <sys_created_by>mark.zijlstra</sys_created_by>
         <sys_created_on>2018-10-08 17:17:58</sys_created_on>
         <sys_id>aa20c2d5db01a740f87bfe9b0c961996</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Location of where the incident ocurred</sys_name>
         <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
         <sys_policy/>
         <sys_scope display_value="InfoSec">3a1210cbdb382340f87bfe9b0c9619e8</sys_scope>
         <sys_update_name>sys_dictionary_x_parg2_infosec_infosec_incident_u_glide_location_of_incident</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-10-08 18:11:30</sys_updated_on>
+        <sys_updated_by>mark.zijlstra</sys_updated_by>
+        <sys_updated_on>2018-10-09 10:26:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -49,9 +49,9 @@
         <element label="Details asked penalties by customer" max_length="4000" name="u_details_customer_asked_penalties" type="string"/>
         <element label="Details official complaint by customers" max_length="4000" name="u_details_customer_official_complain" type="string"/>
         <element label="Details other action by customer" max_length="4000" name="u_detail_customer_other_action" type="string"/>
-        <element label="Detection data breach" max_length="4000" name="u_detection_data_breach" type="string"/>
+        <element label="How can the detection of the incident be inmproved?" max_length="4000" name="u_detection_data_breach" type="string"/>
         <element label="How was the cause determined?" mandatory="true" max_length="4000" name="u_determination_cause" type="string"/>
-        <element label="Experience notification all people concerned" max_length="4000" name="u_experience_notification_all_people_concerned" type="string"/>
+        <element label="In case the data breach has been notified to all people concerned, do we know ho" max_length="4000" name="u_experience_notification_all_people_concerned" type="string"/>
         <element label="Why did it happen?" mandatory="true" max_length="4000" name="u_explaination" type="string"/>
         <element attributes="start_locked=false, edge_encryption_enabled=true;" choice="1" label="Authorities Involved, if any" max_length="1024" name="u_glide_list_authorities_involved" type="glide_list">
             <choice>
@@ -65,7 +65,7 @@
                 <element label="Not needed" sequence="8" value="Not needed"/>
             </choice>
         </element>
-        <element attributes="start_locked=true, edge_encryption_enabled=true;" choice="1" label="Location of where the incident ocurred" max_length="1024" name="u_glide_location_of_incident" type="glide_list">
+        <element attributes="start_locked=true,edge_encryption_enabled=true;" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Location of where the incident ocurred" max_length="1024" name="u_glide_location_of_incident" reference="x_parg2_infosec_infosec_location_incident" type="glide_list">
             <choice>
                 <element label="France, Versailles" value="France, Versailles"/>
                 <element label="Germany, Munchen" value="Germany, Munchen"/>
@@ -119,7 +119,7 @@
             </choice>
         </element>
         <element label="Who should be informed INTERNAL" mandatory="true" max_length="4000" name="u_inform_internal" type="string"/>
-        <element label="Internal evaluation" max_length="4000" name="u_internal_evaluation" type="string"/>
+        <element label="How was the incident internally evaluated, what can be improved?" max_length="4000" name="u_internal_evaluation" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="International authorities involved, if any." max_length="40" name="u_international_authorities_involved" type="string">
             <choice>
                 <element label="Yes, namely" sequence="0" value="Yes, namely"/>
@@ -145,9 +145,9 @@
         <element label="Lessons Learned" mandatory="true" max_length="4000" name="u_lessons_learned" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Table of lost documents" max_length="4000" name="u_lost_documents" type="string"/>
         <element label="Incident management contacts" mandatory="true" max_length="4000" name="u_management_contacts" type="string"/>
-        <element label="Notification all people concerned" max_length="4000" name="u_notification_all_people_concerned" type="string"/>
-        <element label="Notification Supervisory Authority" max_length="4000" name="u_notification_supervisory_authority" type="string"/>
-        <element label="Notification  third parties" max_length="4000" name="u_notification_third_parties" type="string"/>
+        <element label="In case the data breach has been notified to all people concerned, what are our " max_length="4000" name="u_notification_all_people_concerned" type="string"/>
+        <element label="In case the data breach has been notified to the Supervisory Authority, what are" max_length="4000" name="u_notification_supervisory_authority" type="string"/>
+        <element label="In case the data breach has been notified to third parties, do we know how they " max_length="4000" name="u_notification_third_parties" type="string"/>
         <element label="How many people will you notify?" max_length="40" name="u_number_notief_people" type="integer"/>
         <element choice="1" label="Origin of the incident" max_length="40" name="u_origin_incident" type="string">
             <choice>
@@ -230,7 +230,7 @@
                 <element label="E-mail" sequence="0" value="1"/>
                 <element label="Company data" sequence="1" value="2"/>
                 <element label="Client data" sequence="2" value="3"/>
-                <element label="Not aplicable" sequence="3" value="4"/>
+                <element label="Not applicable" sequence="3" value="4"/>
             </choice>
         </element>
         <element label="Were there any users impacted" max_length="40" name="u_users_impacted" type="boolean"/>
@@ -245,7 +245,7 @@
         <element choice="3" default="1" label="What type of data was stored on the device?" max_length="40" name="u_what_type_of_data_was_stored_on_the_device" type="integer">
             <choice/>
         </element>
-        <element label="What was the quality of  determining the impact and could this been done better" max_length="4000" name="u_what_was_the_quality_of_determining_the_impact_and_could_this_been_done_better" type="string"/>
+        <element label="What was the quality of  determining the impact and could this been done better?" max_length="4000" name="u_what_was_the_quality_of_determining_the_impact_and_could_this_been_done_better" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="When did you notify all people concerned? (internal/external)" max_length="40" name="u_when_did_notify_all_people" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="When will you notify all people concerned? (internal/external)" max_length="200" name="u_when_will_notify_all_people" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Which international authorities are involved" max_length="4000" name="u_which_international_authorities_involved" type="string"/>

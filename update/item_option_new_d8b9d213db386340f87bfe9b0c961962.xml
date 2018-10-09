@@ -2,7 +2,7 @@
 <record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
-        <attributes/>
+        <attributes>glide_list</attributes>
         <cat_item display_value="Information Security Incident">c0c79a9fdbf46340f87bfe9b0c961956</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
@@ -60,14 +60,14 @@
         <sys_created_by>mark.zijlstra</sys_created_by>
         <sys_created_on>2018-10-02 14:56:06</sys_created_on>
         <sys_id>d8b9d213db386340f87bfe9b0c961962</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>Location of where the incident ocurred</sys_name>
         <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
         <sys_policy/>
         <sys_scope display_value="InfoSec">3a1210cbdb382340f87bfe9b0c9619e8</sys_scope>
         <sys_update_name>item_option_new_d8b9d213db386340f87bfe9b0c961962</sys_update_name>
         <sys_updated_by>mark.zijlstra</sys_updated_by>
-        <sys_updated_on>2018-10-08 21:24:28</sys_updated_on>
+        <sys_updated_on>2018-10-09 14:05:56</sys_updated_on>
         <table/>
         <tooltip/>
         <type>21</type>
