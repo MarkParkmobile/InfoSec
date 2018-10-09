@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>In case the data breach has been notified to third parties, do we know how they </column_label>
+        <column_label>How did the 3rd parties experience the notification and aftercare?</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -55,14 +55,14 @@
         <sys_created_by>mark.zijlstra</sys_created_by>
         <sys_created_on>2018-10-04 08:36:26</sys_created_on>
         <sys_id>2220c2d5db01a740f87bfe9b0c9619e8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>In case the data breach has been notified to third parties, do we know how they </sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>How did the 3rd parties experience the notification and aftercare?</sys_name>
         <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
         <sys_policy/>
         <sys_scope display_value="InfoSec">3a1210cbdb382340f87bfe9b0c9619e8</sys_scope>
         <sys_update_name>sys_dictionary_x_parg2_infosec_infosec_incident_u_notification_third_parties</sys_update_name>
         <sys_updated_by>mark.zijlstra</sys_updated_by>
-        <sys_updated_on>2018-10-09 09:56:10</sys_updated_on>
+        <sys_updated_on>2018-10-09 14:44:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

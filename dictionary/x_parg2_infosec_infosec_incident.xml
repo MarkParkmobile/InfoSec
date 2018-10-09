@@ -49,9 +49,9 @@
         <element label="Details asked penalties by customer" max_length="4000" name="u_details_customer_asked_penalties" type="string"/>
         <element label="Details official complaint by customers" max_length="4000" name="u_details_customer_official_complain" type="string"/>
         <element label="Details other action by customer" max_length="4000" name="u_detail_customer_other_action" type="string"/>
-        <element label="How can the detection of the incident be inmproved?" max_length="4000" name="u_detection_data_breach" type="string"/>
+        <element label="How can the detection of the incident be improved?" max_length="4000" name="u_detection_data_breach" type="string"/>
         <element label="How was the cause determined?" mandatory="true" max_length="4000" name="u_determination_cause" type="string"/>
-        <element label="In case the data breach has been notified to all people concerned, do we know ho" max_length="4000" name="u_experience_notification_all_people_concerned" type="string"/>
+        <element label="How did the notified people concerned experience the notification and aftercare?" max_length="4000" name="u_experience_notification_all_people_concerned" type="string"/>
         <element label="Why did it happen?" mandatory="true" max_length="4000" name="u_explaination" type="string"/>
         <element attributes="start_locked=false, edge_encryption_enabled=true;" choice="1" label="Authorities Involved, if any" max_length="1024" name="u_glide_list_authorities_involved" type="glide_list">
             <choice>
@@ -92,7 +92,7 @@
                 <element label="Not applicable" sequence="2" value="0"/>
             </choice>
         </element>
-        <element label="How can the detection of the incident be inmproved?" max_length="4000" name="u_how_can_the_detection_of_the_incident_be_inmproved" type="string"/>
+        <element label="How can the mitigating actions of the incident be improved?" max_length="4000" name="u_how_can_the_detection_of_the_incident_be_inmproved" type="string"/>
         <element label="How did the recovery approach develop and what could be improved?" max_length="4000" name="u_how_did_the_recovery_approach_develop_and_what_could_be_improved" type="string"/>
         <element label="How did the SIRT operate?" max_length="4000" name="u_how_did_the_sirt_operate" type="string"/>
         <element choice="1" label="Was the device easily identifiable as PMG's?" max_length="40" name="u_identifiable_pmgs" type="integer">
@@ -145,9 +145,9 @@
         <element label="Lessons Learned" mandatory="true" max_length="4000" name="u_lessons_learned" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Table of lost documents" max_length="4000" name="u_lost_documents" type="string"/>
         <element label="Incident management contacts" mandatory="true" max_length="4000" name="u_management_contacts" type="string"/>
-        <element label="In case the data breach has been notified to all people concerned, what are our " max_length="4000" name="u_notification_all_people_concerned" type="string"/>
-        <element label="In case the data breach has been notified to the Supervisory Authority, what are" max_length="4000" name="u_notification_supervisory_authority" type="string"/>
-        <element label="In case the data breach has been notified to third parties, do we know how they " max_length="4000" name="u_notification_third_parties" type="string"/>
+        <element label="If the breach was reported to people concerned, what are our lessons learned?" max_length="4000" name="u_notification_all_people_concerned" type="string"/>
+        <element label="In case the breach has been reported to the S.A., what are our lessons learned?" max_length="4000" name="u_notification_supervisory_authority" type="string"/>
+        <element label="How did the 3rd parties experience the notification and aftercare?" max_length="4000" name="u_notification_third_parties" type="string"/>
         <element label="How many people will you notify?" max_length="40" name="u_number_notief_people" type="integer"/>
         <element choice="1" label="Origin of the incident" max_length="40" name="u_origin_incident" type="string">
             <choice>
