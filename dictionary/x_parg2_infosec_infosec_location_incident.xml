@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="InfoSec Location Incident" max_length="40" name="x_parg2_infosec_infosec_location_incident" type="collection">
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Location Incident" max_length="255" name="u_location_incident" type="string"/>
+        <element display="true" label="Location Incident" max_length="255" name="u_location_incident" type="string"/>
     </element>
 </database>

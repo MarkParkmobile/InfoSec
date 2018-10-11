@@ -805,7 +805,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>mark.zijlstra</sys_created_by>
             <sys_created_on>2018-10-03 11:47:05</sys_created_on>
-            <sys_id>c9404ed5db01a740f87bfe9b0c96193e</sys_id>
+            <sys_id>10fc9f0edb8de740f87bfe9b0c961950</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_what_type_of_data_was_stored_on_the_de</sys_name>
             <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
