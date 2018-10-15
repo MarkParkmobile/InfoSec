@@ -5,38 +5,19 @@
             <dependent_value/>
             <element>u_tech_org_measues</element>
             <hint/>
-            <inactive>true</inactive>
-            <label>Other</label>
-            <language>en</language>
-            <name>x_parg2_infosec_infosec_incident</name>
-            <sequence>0</sequence>
-            <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-06 14:30:38</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>d66ab268dbc52740f87bfe9b0c9619ee</sys_id>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-06 14:36:36</sys_updated_on>
-            <value>other</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_tech_org_measues</element>
-            <hint/>
             <inactive>false</inactive>
             <label>pseudonomyzation</label>
             <language>en</language>
             <name>x_parg2_infosec_infosec_incident</name>
             <sequence>0</sequence>
-            <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-02 10:52:13</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-10-09 19:51:02</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9c226d1bdb746340f87bfe9b0c96191f</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-06 14:31:08</sys_updated_on>
+            <sys_id>01906b6ddbcd6f40b7267db33c9619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-10-09 19:51:02</sys_updated_on>
             <value>pseudonomyzation</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -48,14 +29,14 @@
             <language>en</language>
             <name>x_parg2_infosec_infosec_incident</name>
             <sequence>1</sequence>
-            <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-02 10:52:13</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-10-09 19:51:02</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>10226d1bdb746340f87bfe9b0c961922</sys_id>
+            <sys_id>41906b6ddbcd6f40b7267db33c9619d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-02 10:52:13</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-10-09 19:51:02</sys_updated_on>
             <value>encryption (incl. separate password for access)</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -67,14 +48,14 @@
             <language>en</language>
             <name>x_parg2_infosec_infosec_incident</name>
             <sequence>2</sequence>
-            <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-02 10:52:13</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-10-09 19:51:02</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>dc226d1bdb746340f87bfe9b0c961923</sys_id>
+            <sys_id>81906b6ddbcd6f40b7267db33c9619d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-02 10:52:13</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-10-09 19:51:02</sys_updated_on>
             <value>hashing</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -86,14 +67,14 @@
             <language>en</language>
             <name>x_parg2_infosec_infosec_incident</name>
             <sequence>3</sequence>
-            <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-02 10:52:13</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-10-09 19:51:02</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9c226d1bdb746340f87bfe9b0c961925</sys_id>
+            <sys_id>c1906b6ddbcd6f40b7267db33c9619d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-02 10:52:13</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-10-09 19:51:02</sys_updated_on>
             <value>server security  monitoring (siem?)</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -105,14 +86,14 @@
             <language>en</language>
             <name>x_parg2_infosec_infosec_incident</name>
             <sequence>4</sequence>
-            <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-02 10:52:13</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-10-09 19:51:02</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5c226d1bdb746340f87bfe9b0c961927</sys_id>
+            <sys_id>05906b6ddbcd6f40b7267db33c9619d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-02 10:52:13</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-10-09 19:51:02</sys_updated_on>
             <value>private cloud solution</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -124,14 +105,14 @@
             <language>en</language>
             <name>x_parg2_infosec_infosec_incident</name>
             <sequence>5</sequence>
-            <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-02 10:52:13</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-10-09 19:51:02</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>1c226d1bdb746340f87bfe9b0c961929</sys_id>
+            <sys_id>45906b6ddbcd6f40b7267db33c9619d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-02 10:52:13</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-10-09 19:51:02</sys_updated_on>
             <value>iam via personal account/key</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -143,14 +124,14 @@
             <language>en</language>
             <name>x_parg2_infosec_infosec_incident</name>
             <sequence>6</sequence>
-            <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-02 10:52:13</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-10-09 19:51:02</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d8226d1bdb746340f87bfe9b0c96192b</sys_id>
+            <sys_id>85906b6ddbcd6f40b7267db33c9619d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-02 10:52:13</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-10-09 19:51:02</sys_updated_on>
             <value>other forms of restricted access</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -162,14 +143,14 @@
             <language>en</language>
             <name>x_parg2_infosec_infosec_incident</name>
             <sequence>7</sequence>
-            <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-02 10:52:13</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-10-09 19:51:02</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>98226d1bdb746340f87bfe9b0c96192d</sys_id>
+            <sys_id>c5906b6ddbcd6f40b7267db33c9619d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-02 10:52:13</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-10-09 19:51:02</sys_updated_on>
             <value>vulnerability scans</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -181,31 +162,31 @@
             <language>en</language>
             <name>x_parg2_infosec_infosec_incident</name>
             <sequence>8</sequence>
-            <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-02 10:52:13</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-10-09 19:51:02</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>58226d1bdb746340f87bfe9b0c96192f</sys_id>
+            <sys_id>09906b6ddbcd6f40b7267db33c9619d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-02 10:52:13</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-10-09 19:51:02</sys_updated_on>
             <value>penetration tests</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>u_tech_org_measues</element>
             <name>x_parg2_infosec_infosec_incident</name>
             <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>mark.zijlstra</sys_created_by>
-            <sys_created_on>2018-10-02 10:52:13</sys_created_on>
-            <sys_id>b3ec5f0edb8de740f87bfe9b0c9619c1</sys_id>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-10-09 19:51:02</sys_created_on>
+            <sys_id>0d906b6ddbcd6f40b7267db33c9619d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_tech_org_measues</sys_name>
             <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
             <sys_policy/>
             <sys_scope display_value="InfoSec">3a1210cbdb382340f87bfe9b0c9619e8</sys_scope>
             <sys_update_name>sys_choice_x_parg2_infosec_infosec_incident_u_tech_org_measues</sys_update_name>
-            <sys_updated_by>mark.zijlstra</sys_updated_by>
-            <sys_updated_on>2018-10-02 10:52:13</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-10-09 19:51:02</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

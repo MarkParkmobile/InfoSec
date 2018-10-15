@@ -83,7 +83,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>mark.zijlstra</sys_created_by>
             <sys_created_on>2018-10-03 12:19:07</sys_created_on>
-            <sys_id>84fc9f0edb8de740f87bfe9b0c96191f</sys_id>
+            <sys_id>69a0ef6ddbcd6f40b7267db33c9619c5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_type_of_data_was_stored_on_the_device</sys_name>
             <sys_package display_value="InfoSec" source="x_parg2_infosec">3a1210cbdb382340f87bfe9b0c9619e8</sys_package>
