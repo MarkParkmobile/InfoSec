@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="InfoSec Incident" max_length="40" name="x_parg2_infosec_infosec_incident" sizeclass="2" type="collection">
+    <element audit="true" extends="task" label="InfoSec Incident" max_length="40" name="x_parg2_infosec_infosec_incident" sizeclass="3" type="collection">
         <element choice="1" label="Risk type" max_length="40" name="risk_type" type="integer">
             <choice>
                 <element label="Availability" sequence="0" value="1"/>
