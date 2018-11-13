@@ -106,16 +106,17 @@
         <element label="Impacted users" max_length="4000" name="u_impacted_users" type="string"/>
         <element label="Impacted clients or customers if any" max_length="4000" name="u_impaxted_client_customers" type="string"/>
         <element label="Incident date and time" max_length="40" name="u_incident_date_time" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Incident type" max_length="40" name="u_incident_type" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="data breach" label="Incident type" max_length="40" name="u_incident_type" type="string">
             <choice>
                 <element label="Data Breach" sequence="0" value="data breach"/>
                 <element label="Attrition" sequence="1" value="attrition"/>
                 <element label="Web attacks" sequence="2" value="web attacks"/>
-                <element label="E-mail stacks" sequence="3" value="e-mail stacks"/>
-                <element label="Improper usage" sequence="4" value="improper usage"/>
-                <element label="Loss or theft of equipment" sequence="5" value="loss or theft of equipment"/>
-                <element label="Outage" sequence="6" value="outage"/>
-                <element label="Other" sequence="7" value="other"/>
+                <element label="E-mail attacks" sequence="3" value="e-mail attacks"/>
+                <element label="Malware" sequence="4" value="malware"/>
+                <element label="Improper usage" sequence="5" value="improper usage"/>
+                <element label="Loss or theft of equipment" sequence="6" value="loss or theft of equipment"/>
+                <element label="Outage" sequence="7" value="outage"/>
+                <element label="Other" sequence="8" value="other"/>
             </choice>
         </element>
         <element label="Who should be informed INTERNAL" max_length="4000" name="u_inform_internal" type="string"/>
